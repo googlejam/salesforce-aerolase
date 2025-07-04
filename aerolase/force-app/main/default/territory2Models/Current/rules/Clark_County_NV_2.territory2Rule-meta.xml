@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Clark County 2</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>89116,89117,89118,89119,89120,89121,89122,89123,89124,89125,89126,89127</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>89128,89129,89130,89131,89132,89133,89134,89135,89136,89137,89138,89139</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>89140,89141,89142,89143,89144,89145,89146,89147,89148,89149,89150,89151</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>89152,89153,89154,89155,89156,89157,89158,89159,89160,89161,89162,89163</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>89164,89165,89166,89169,89170,89173,89177,89178,89179,89180,89183,89185</value>
+    </ruleItems>
+</Territory2Rule>

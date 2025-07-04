@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Southern_California_Dermatologists</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Specialty__c</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>City__c</columns>
+    <columns>State__c</columns>
+    <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+    <columns>CONTACT.ADDRESS2_ZIP</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>State__c</field>
+        <operation>equals</operation>
+        <value>California,CA</value>
+    </filters>
+    <filters>
+        <field>Specialty__c</field>
+        <operation>contains</operation>
+        <value>Dermatology</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>ahirt,tbutl,dbays</value>
+    </filters>
+    <label>Southern California - Dermatologists</label>
+</ListView>

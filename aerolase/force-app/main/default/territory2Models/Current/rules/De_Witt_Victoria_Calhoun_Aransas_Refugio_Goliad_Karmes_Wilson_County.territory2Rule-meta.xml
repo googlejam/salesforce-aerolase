@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>De Witt, Victoria, Calhoun, Aransas, Refugio, Goliad, Karmes &amp; Wilson County</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77954,77967,77974,77989,77994,78141,78164,77901,77902,77903,77904,77905</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77951,77968,77973,77976,77977,77988,77978,77979,77982,77983</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78358,78381,78382,77950,77990,78340,78377,78393,77960,77963,77993,78107</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78111,78113,78116,78117,78118,78119,78144,78151</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78114,78121,78143,78147,78160,78161</value>
+    </ruleItems>
+</Territory2Rule>

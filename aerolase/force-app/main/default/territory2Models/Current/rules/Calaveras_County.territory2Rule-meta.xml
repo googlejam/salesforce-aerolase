@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <name>Calaveras County</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>95221,95222,95223,95224,95225,95226,95228,95229,95232,95233,95245,95246</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>95247,95248,95249,95251,95252,95254,95255,95257</value>
+    </ruleItems>
+</Territory2Rule>

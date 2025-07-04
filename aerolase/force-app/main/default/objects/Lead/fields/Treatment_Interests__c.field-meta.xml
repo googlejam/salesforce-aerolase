@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Treatment_Interests__c</fullName>
+    <label>Treatment Interests</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ablative/Micro Peels</fullName>
+                <default>false</default>
+                <label>Ablative/Micro Peels</label>
+            </value>
+            <value>
+                <fullName>Acne</fullName>
+                <default>false</default>
+                <label>Acne</label>
+            </value>
+            <value>
+                <fullName>Aging Skin</fullName>
+                <default>false</default>
+                <label>Aging Skin</label>
+            </value>
+            <value>
+                <fullName>Autoimmune Diseases</fullName>
+                <default>false</default>
+                <label>Autoimmune Diseases</label>
+            </value>
+            <value>
+                <fullName>Hair</fullName>
+                <default>false</default>
+                <label>Hair</label>
+            </value>
+            <value>
+                <fullName>Hyperpigmentation</fullName>
+                <default>false</default>
+                <label>Hyperpigmentation</label>
+            </value>
+            <value>
+                <fullName>Melasma</fullName>
+                <default>false</default>
+                <label>Melasma</label>
+            </value>
+            <value>
+                <fullName>Nails</fullName>
+                <default>false</default>
+                <label>Nails</label>
+            </value>
+            <value>
+                <fullName>Psoriasis</fullName>
+                <default>false</default>
+                <label>Psoriasis</label>
+            </value>
+            <value>
+                <fullName>Redness</fullName>
+                <default>false</default>
+                <label>Redness</label>
+            </value>
+            <value>
+                <fullName>Rosacea</fullName>
+                <default>false</default>
+                <label>Rosacea</label>
+            </value>
+            <value>
+                <fullName>Scars</fullName>
+                <default>false</default>
+                <label>Scars</label>
+            </value>
+            <value>
+                <fullName>Skin of Color</fullName>
+                <default>false</default>
+                <label>Skin of Color</label>
+            </value>
+            <value>
+                <fullName>Skin Rejuvenation</fullName>
+                <default>false</default>
+                <label>Skin Rejuvenation</label>
+            </value>
+            <value>
+                <fullName>Skin Tightening</fullName>
+                <default>false</default>
+                <label>Skin Tightening</label>
+            </value>
+            <value>
+                <fullName>Vascular Lesions</fullName>
+                <default>false</default>
+                <label>Vascular Lesions</label>
+            </value>
+            <value>
+                <fullName>Cutaneous Lesions</fullName>
+                <default>false</default>
+                <label>Cutaneous Lesions</label>
+            </value>
+            <value>
+                <fullName>Pigmented Lesions</fullName>
+                <default>false</default>
+                <label>Pigmented Lesions</label>
+            </value>
+            <value>
+                <fullName>Skin Resurfacing</fullName>
+                <default>false</default>
+                <label>Skin Resurfacing</label>
+            </value>
+            <value>
+                <fullName>PFB</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PFB</label>
+            </value>
+            <value>
+                <fullName>Scar Revision</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Scar Revision</label>
+            </value>
+            <value>
+                <fullName>Spider Veins</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Spider Veins</label>
+            </value>
+            <value>
+                <fullName>Warts</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Warts</label>
+            </value>
+            <value>
+                <fullName>Wound Healing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Wound Healing</label>
+            </value>
+            <value>
+                <fullName>Wrinkles</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Wrinkles</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

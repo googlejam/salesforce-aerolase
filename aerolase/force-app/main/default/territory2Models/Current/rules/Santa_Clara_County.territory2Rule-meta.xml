@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Santa Clara County 1</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>94022,94023,94024,94035,94039,94040,94041,94042,94043,94085,94086,94087</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>94088,94089,94301,94302,94303,94304,94305,94306,94309,95002,95008,95009</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>95011,95013,95014,95015,95020,95021,95026,95030,95031,95032,95033,95035</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>95036,95037,95038,95042,95044,95046,95050,95051,95052,95053,95054,95055</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>95056,95070,95071,95101,95103,95106,95108,95109,95110,95111,95112,95113</value>
+    </ruleItems>
+</Territory2Rule>

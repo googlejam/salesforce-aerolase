@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Aesthetic Medicine</fullName>
+        <default>false</default>
+        <label>Aesthetic Medicine</label>
+    </customValue>
+    <customValue>
+        <fullName>Association</fullName>
+        <default>false</default>
+        <label>Association</label>
+    </customValue>
+    <customValue>
+        <fullName>Cosmetic Surgeon &amp; Hair Restoration</fullName>
+        <default>false</default>
+        <label>Cosmetic Surgeon &amp; Hair Restoration</label>
+    </customValue>
+    <customValue>
+        <fullName>Dermatology</fullName>
+        <default>false</default>
+        <label>Dermatology</label>
+    </customValue>
+    <customValue>
+        <fullName>Emergency Medicine</fullName>
+        <default>false</default>
+        <label>Emergency Medicine</label>
+    </customValue>
+    <customValue>
+        <fullName>ENT</fullName>
+        <default>false</default>
+        <label>ENT</label>
+    </customValue>
+    <customValue>
+        <fullName>Facial Plastic Surgery</fullName>
+        <default>false</default>
+        <label>Facial Plastic Surgery</label>
+    </customValue>
+    <customValue>
+        <fullName>Family Practice</fullName>
+        <default>false</default>
+        <label>Family Practice</label>
+    </customValue>
+    <customValue>
+        <fullName>General Surgery</fullName>
+        <default>false</default>
+        <label>General Surgery</label>
+    </customValue>
+    <customValue>
+        <fullName>Hospital</fullName>
+        <default>false</default>
+        <label>Hospital</label>
+    </customValue>
+    <customValue>
+        <fullName>Industry</fullName>
+        <default>false</default>
+        <label>Industry</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal Medicine</fullName>
+        <default>false</default>
+        <label>Internal Medicine</label>
+    </customValue>
+    <customValue>
+        <fullName>Maxillofacial/Dentistry</fullName>
+        <default>false</default>
+        <label>Maxillofacial/Dentistry</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical Spa</fullName>
+        <default>false</default>
+        <label>Medical Spa</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical Staff</fullName>
+        <default>false</default>
+        <label>Medical Staff</label>
+    </customValue>
+    <customValue>
+        <fullName>N/A</fullName>
+        <default>false</default>
+        <label>N/A</label>
+    </customValue>
+    <customValue>
+        <fullName>Naturopathic Doctor</fullName>
+        <default>false</default>
+        <label>Naturopathic Doctor</label>
+    </customValue>
+    <customValue>
+        <fullName>OB/GYN</fullName>
+        <default>false</default>
+        <label>OB/GYN</label>
+    </customValue>
+    <customValue>
+        <fullName>Oculoplastic Surgery</fullName>
+        <default>false</default>
+        <label>Oculoplastic Surgery</label>
+    </customValue>
+    <customValue>
+        <fullName>Ophthalmology</fullName>
+        <default>false</default>
+        <label>Ophthalmology</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Pain Management</fullName>
+        <default>false</default>
+        <label>Pain Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Pediatrics</fullName>
+        <default>false</default>
+        <label>Pediatrics</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharmaceutical</fullName>
+        <default>false</default>
+        <label>Pharmaceutical</label>
+    </customValue>
+    <customValue>
+        <fullName>Plastic Surgery</fullName>
+        <default>false</default>
+        <label>Plastic Surgery</label>
+    </customValue>
+    <customValue>
+        <fullName>Podiatry</fullName>
+        <default>false</default>
+        <label>Podiatry</label>
+    </customValue>
+    <customValue>
+        <fullName>Spa</fullName>
+        <default>false</default>
+        <label>Spa</label>
+    </customValue>
+    <customValue>
+        <fullName>University</fullName>
+        <default>false</default>
+        <label>University</label>
+    </customValue>
+    <customValue>
+        <fullName>Urology</fullName>
+        <default>false</default>
+        <label>Urology</label>
+    </customValue>
+    <customValue>
+        <fullName>Vein Center</fullName>
+        <default>false</default>
+        <label>Vein Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Journalist</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Journalist</label>
+    </customValue>
+    <masterLabel>Specialty</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

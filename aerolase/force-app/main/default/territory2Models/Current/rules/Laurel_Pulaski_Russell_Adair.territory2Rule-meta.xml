@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Laurel, Pulaski, Russell, Adair, Metcalfe &amp; Barren County</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>40724,40729,40737,40740,40741,40742,40743,40744,40745,40750,40755</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>42501,42502,42503,42518,42519,42533,42544,42553,42558,42564,42567</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>42629,42642,42715,42720,42728,42741,42742,42753</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>42715,42720,42728,42741,42742,42753</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>42123,42127,42130,42131,42141,42142,42152,42156,42160</value>
+    </ruleItems>
+</Territory2Rule>

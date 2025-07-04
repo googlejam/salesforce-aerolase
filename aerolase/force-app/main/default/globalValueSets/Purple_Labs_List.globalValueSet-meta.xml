@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Yes</fullName>
+        <default>false</default>
+        <label>Yes</label>
+    </customValue>
+    <description>Leads that have come from the &quot;Purple Labs&quot; leads list</description>
+    <masterLabel>Purple Labs List</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

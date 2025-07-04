@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Helpful_Info_for_Customer_Success__c</fullName>
+    <description>Please include any helpful insight for the customer success team onboarding. For example, what is the practice looking to treat, what is their current main demographic, any goals they have mentioned during the sales process, etc.</description>
+    <inlineHelpText>Please include any helpful insight for the customer success team onboarding. For example, what is the practice looking to treat, what is their current main demographic, any goals they have mentioned during the sales process, etc.</inlineHelpText>
+    <label>Helpful Info for Customer Success</label>
+    <length>1000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

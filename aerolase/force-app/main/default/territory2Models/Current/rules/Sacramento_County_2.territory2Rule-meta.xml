@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Sacramento County 2</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>95610,95611,95615,95621,95624,95626,95628,95630,95632,95638,95639,95641</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>95652,95655,95660,95662,95670,95671,95673,95680,95683,95690,95693,95741</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>95742,95757,95758,95759,95763,95811,95812,95813,95814,95815,95816,95817</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>95818,95819,95820,95821,95822,95823,95824,95825,95826,95827,95828,95829</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>95830,95831,95832,95833,95834,95835,95836,95837,95838,95840,95841,95842</value>
+    </ruleItems>
+</Territory2Rule>

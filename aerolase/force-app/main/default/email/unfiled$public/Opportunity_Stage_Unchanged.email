@@ -1,0 +1,7 @@
+Hi {!Opportunity.OwnerFirstName},
+
+Your opportunity has been in the same stage for 15 days.
+
+This needs your attention! Please click on the link below to view the record and do the needful:-
+
+{!Opportunity.Link}

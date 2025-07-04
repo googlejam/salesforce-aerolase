@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Aerolase_Internal</letterhead>
+    <name>Aerolase Lead Owner</name>
+    <style>freeForm</style>
+    <subject>Incoming Lead</subject>
+    <textOnly>Hi {!Lead.OwnerFullName},
+
+A new lead has been assigned to you:
+
+{!Lead.Link}
+
+Lead Name: {!Lead.OwnerFullName}
+Lead Email: {!Lead.Email}
+Lead Company: {!Lead.Company}
+Lead Phone: {!Lead.Phone}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

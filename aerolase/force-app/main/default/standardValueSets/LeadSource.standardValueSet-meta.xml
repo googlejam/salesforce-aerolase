@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Advertisement</fullName>
+        <default>false</default>
+        <label>Advertisement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Affiliate</fullName>
+        <default>false</default>
+        <label>Affiliate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call-in</fullName>
+        <default>false</default>
+        <label>Call-in</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Chat Box</fullName>
+        <default>false</default>
+        <label>Chat Box</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cold Call</fullName>
+        <default>false</default>
+        <label>Cold Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dermascope</fullName>
+        <default>false</default>
+        <label>Dermascope</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Direct Mail</fullName>
+        <default>false</default>
+        <label>Direct Mail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Direct Traffic</fullName>
+        <default>false</default>
+        <label>Direct Traffic</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Empire Medical Training</fullName>
+        <default>false</default>
+        <label>Empire Medical Training</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employee Referral</fullName>
+        <default>false</default>
+        <label>Employee Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Event</fullName>
+        <default>false</default>
+        <label>Event</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hosted Event</fullName>
+        <default>false</default>
+        <label>Hosted Event</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medical Expo</fullName>
+        <default>false</default>
+        <label>Medical Expo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Missing</fullName>
+        <default>false</default>
+        <label>Missing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Offline Sources</fullName>
+        <default>false</default>
+        <label>Offline Sources</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Organic Search</fullName>
+        <default>false</default>
+        <label>Organic Search</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Organic Social</fullName>
+        <default>false</default>
+        <label>Organic Social</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other Campaigns</fullName>
+        <default>false</default>
+        <label>Other Campaigns</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Paid Search</fullName>
+        <default>false</default>
+        <label>Paid Search</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Paid Social</fullName>
+        <default>false</default>
+        <label>Paid Social</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner</fullName>
+        <default>false</default>
+        <label>Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PR</fullName>
+        <default>false</default>
+        <label>PR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referrals</fullName>
+        <default>false</default>
+        <label>Referrals</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Scrape</fullName>
+        <default>false</default>
+        <label>Scrape</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Social Media</fullName>
+        <default>false</default>
+        <label>Social Media</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sponsored Content</fullName>
+        <default>false</default>
+        <label>Sponsored Content</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Spotio</fullName>
+        <default>false</default>
+        <label>Spotio</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trade Show</fullName>
+        <default>false</default>
+        <label>Trade Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Training School</fullName>
+        <default>false</default>
+        <label>Training School</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Webinar</fullName>
+        <default>false</default>
+        <label>Webinar</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website</fullName>
+        <default>false</default>
+        <label>Website</label>
+    </standardValue>
+</StandardValueSet>

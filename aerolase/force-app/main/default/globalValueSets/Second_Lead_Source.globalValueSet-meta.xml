@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>5CC World Congress</fullName>
+        <default>false</default>
+        <label>5CC World Congress</label>
+    </customValue>
+    <customValue>
+        <fullName>A4m</fullName>
+        <default>false</default>
+        <label>A4m</label>
+    </customValue>
+    <customValue>
+        <fullName>AAD</fullName>
+        <default>false</default>
+        <label>AAD</label>
+    </customValue>
+    <customValue>
+        <fullName>AANP</fullName>
+        <default>false</default>
+        <label>AANP</label>
+    </customValue>
+    <customValue>
+        <fullName>Abstract Download</fullName>
+        <default>false</default>
+        <label>Abstract Download</label>
+    </customValue>
+    <customValue>
+        <fullName>ADAM</fullName>
+        <default>false</default>
+        <label>ADAM</label>
+    </customValue>
+    <customValue>
+        <fullName>Aesha Briggs</fullName>
+        <default>false</default>
+        <label>Aesha Briggs</label>
+    </customValue>
+    <customValue>
+        <fullName>Aesthetic Extender Symposium</fullName>
+        <default>false</default>
+        <label>Aesthetic Extender Symposium</label>
+    </customValue>
+    <customValue>
+        <fullName>Aesthetic Insights</fullName>
+        <default>false</default>
+        <label>Aesthetic Insights</label>
+    </customValue>
+    <customValue>
+        <fullName>Aesthetic Next</fullName>
+        <default>false</default>
+        <label>Aesthetic Next</label>
+    </customValue>
+    <customValue>
+        <fullName>AIVA</fullName>
+        <default>false</default>
+        <label>AIVA</label>
+    </customValue>
+    <customValue>
+        <fullName>ALC Conference</fullName>
+        <default>false</default>
+        <label>ALC Conference</label>
+    </customValue>
+    <customValue>
+        <fullName>Alida Brock</fullName>
+        <default>false</default>
+        <label>Alida Brock</label>
+    </customValue>
+    <customValue>
+        <fullName>Alpha Derm</fullName>
+        <default>false</default>
+        <label>Alpha Derm</label>
+    </customValue>
+    <customValue>
+        <fullName>AmSpa Bootcamp</fullName>
+        <default>false</default>
+        <label>AmSpa Bootcamp</label>
+    </customValue>
+    <customValue>
+        <fullName>AmSpa Bootcamp - Atlanta</fullName>
+        <default>false</default>
+        <label>AmSpa Bootcamp- Atlanta</label>
+    </customValue>
+    <customValue>
+        <fullName>AmSpa Bootcamp - Boston</fullName>
+        <default>false</default>
+        <label>AmSpa Bootcamp - Boston</label>
+    </customValue>
+    <customValue>
+        <fullName>AmSpa Bootcamp - Charlotte</fullName>
+        <default>false</default>
+        <label>AmSpa Bootcamp - Charlotte</label>
+    </customValue>
+    <customValue>
+        <fullName>AmSpa Bootcamp - Dallas</fullName>
+        <default>false</default>
+        <label>AmSpa Bootcamp - Dallas</label>
+    </customValue>
+    <customValue>
+        <fullName>AmSpa Bootcamp - Denver</fullName>
+        <default>false</default>
+        <label>AmSpa Bootcamp - Denver</label>
+    </customValue>
+    <customValue>
+        <fullName>AmSpa Bootcamp - Houston</fullName>
+        <default>false</default>
+        <label>AmSpa Bootcamp - Houston</label>
+    </customValue>
+    <customValue>
+        <fullName>AmSpa Bootcamp - Miami</fullName>
+        <default>false</default>
+        <label>AmSpa Bootcamp - Miami</label>
+    </customValue>
+    <customValue>
+        <fullName>AmSpa Bootcamp - Nashville</fullName>
+        <default>false</default>
+        <label>AmSpa Bootcamp - Nashville</label>
+    </customValue>
+    <customValue>
+        <fullName>AmSpa Bootcamp - NYC</fullName>
+        <default>false</default>
+        <label>AmSpa Bootcamp - NYC</label>
+    </customValue>
+    <customValue>
+        <fullName>AmSpa Bootcamp - Phoenix</fullName>
+        <default>false</default>
+        <label>AmSpa Bootcamp - Phoenix</label>
+    </customValue>
+    <customValue>
+        <fullName>AmSpa Bootcamp - So Cali</fullName>
+        <default>false</default>
+        <label>AmSpa Bootcamp - So Cali</label>
+    </customValue>
+    <customValue>
+        <fullName>AmSpa MedSpa Show</fullName>
+        <default>false</default>
+        <label>AmSpa MedSpa Show</label>
+    </customValue>
+    <customValue>
+        <fullName>AmSpa Orlando</fullName>
+        <default>false</default>
+        <label>AmSpa Orlando</label>
+    </customValue>
+    <customValue>
+        <fullName>AMWC - LATAM</fullName>
+        <default>false</default>
+        <label>AMWC - LATAM</label>
+    </customValue>
+    <customValue>
+        <fullName>AMWC - Miami</fullName>
+        <default>false</default>
+        <label>AMWC - Miami</label>
+    </customValue>
+    <customValue>
+        <fullName>AMWC - Monaco</fullName>
+        <default>false</default>
+        <label>AMWC - Monaco</label>
+    </customValue>
+    <customValue>
+        <fullName>AOD</fullName>
+        <default>false</default>
+        <label>AOD</label>
+    </customValue>
+    <customValue>
+        <fullName>APPNE</fullName>
+        <default>false</default>
+        <label>APPNE</label>
+    </customValue>
+    <customValue>
+        <fullName>Arjiana Rusic</fullName>
+        <default>false</default>
+        <label>Arjiana Rusic</label>
+    </customValue>
+    <customValue>
+        <fullName>ARM</fullName>
+        <default>false</default>
+        <label>ARM</label>
+    </customValue>
+    <customValue>
+        <fullName>Art of Diversity</fullName>
+        <default>false</default>
+        <label>Art of Diversity</label>
+    </customValue>
+    <customValue>
+        <fullName>ASDS</fullName>
+        <default>false</default>
+        <label>ASDS</label>
+    </customValue>
+    <customValue>
+        <fullName>ASLMS</fullName>
+        <default>false</default>
+        <label>ASLMS</label>
+    </customValue>
+    <customValue>
+        <fullName>Atlanta Doctors</fullName>
+        <default>false</default>
+        <label>Atlanta Doctors</label>
+    </customValue>
+    <customValue>
+        <fullName>Atlantic Dermatology Conference</fullName>
+        <default>false</default>
+        <label>Atlantic Dermatology Conference</label>
+    </customValue>
+    <customValue>
+        <fullName>AviClear Campaign</fullName>
+        <default>false</default>
+        <label>AviClear Campaign</label>
+    </customValue>
+    <customValue>
+        <fullName>BTS</fullName>
+        <default>false</default>
+        <label>BTS</label>
+    </customValue>
+    <customValue>
+        <fullName>CalDerm</fullName>
+        <default>false</default>
+        <label>CalDerm</label>
+    </customValue>
+    <customValue>
+        <fullName>CAMA</fullName>
+        <default>false</default>
+        <label>CAMA</label>
+    </customValue>
+    <customValue>
+        <fullName>Camille Cash</fullName>
+        <default>false</default>
+        <label>Camille Cash</label>
+    </customValue>
+    <customValue>
+        <fullName>Canadian Aesthetics Expo</fullName>
+        <default>false</default>
+        <label>Canadian Aesthetics Expo</label>
+    </customValue>
+    <customValue>
+        <fullName>Caribbean Derm</fullName>
+        <default>false</default>
+        <label>Caribbean Derm</label>
+    </customValue>
+    <customValue>
+        <fullName>Carly Overland</fullName>
+        <default>false</default>
+        <label>Carly Overland</label>
+    </customValue>
+    <customValue>
+        <fullName>CBAM</fullName>
+        <default>false</default>
+        <label>CBAM</label>
+    </customValue>
+    <customValue>
+        <fullName>Chanelle Fleming</fullName>
+        <default>false</default>
+        <label>Chanelle Fleming</label>
+    </customValue>
+    <customValue>
+        <fullName>Christine Lewy</fullName>
+        <default>false</default>
+        <label>Christine Lewy</label>
+    </customValue>
+    <customValue>
+        <fullName>CLASS</fullName>
+        <default>false</default>
+        <label>CLASS</label>
+    </customValue>
+    <customValue>
+        <fullName>Cold Call</fullName>
+        <default>false</default>
+        <label>Cold Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Congress DERMAJAL</fullName>
+        <default>false</default>
+        <label>Congress DERMAJAL</label>
+    </customValue>
+    <customValue>
+        <fullName>Congress SOMLAMED</fullName>
+        <default>false</default>
+        <label>Congress SOMLAMED</label>
+    </customValue>
+    <customValue>
+        <fullName>Controversies and Conversations</fullName>
+        <default>false</default>
+        <label>Controversies and Conversations</label>
+    </customValue>
+    <customValue>
+        <fullName>Cosmetic Boot Camp</fullName>
+        <default>false</default>
+        <label>Cosmetic Boot Camp</label>
+    </customValue>
+    <customValue>
+        <fullName>CSASN</fullName>
+        <default>false</default>
+        <label>CSASN</label>
+    </customValue>
+    <customValue>
+        <fullName>CSFPS</fullName>
+        <default>false</default>
+        <label>CSFPS</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Referral</fullName>
+        <default>false</default>
+        <label>Customer Referral</label>
+    </customValue>
+    <customValue>
+        <fullName>Dallas Aesthetic &amp; Rhinoplasty</fullName>
+        <default>false</default>
+        <label>Dallas Aesthetic &amp; Rhinoplasty</label>
+    </customValue>
+    <customValue>
+        <fullName>Dan Esthetics</fullName>
+        <default>false</default>
+        <label>Dan Esthetics</label>
+    </customValue>
+    <customValue>
+        <fullName>DERM</fullName>
+        <default>false</default>
+        <label>DERM</label>
+    </customValue>
+    <customValue>
+        <fullName>DermaAesthetics</fullName>
+        <default>false</default>
+        <label>DermaAesthetics</label>
+    </customValue>
+    <customValue>
+        <fullName>Dermascope</fullName>
+        <default>false</default>
+        <label>Dermascope</label>
+    </customValue>
+    <customValue>
+        <fullName>Dermatology Innovation Symposium</fullName>
+        <default>false</default>
+        <label>Dermatology Innovation Symposium</label>
+    </customValue>
+    <customValue>
+        <fullName>Dermatology Managers Association</fullName>
+        <default>false</default>
+        <label>Dermatology Managers Association</label>
+    </customValue>
+    <customValue>
+        <fullName>DermTimes</fullName>
+        <default>false</default>
+        <label>DermTimes</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Derma</fullName>
+        <default>false</default>
+        <label>Dubai Derma</label>
+    </customValue>
+    <customValue>
+        <fullName>EADV</fullName>
+        <default>false</default>
+        <label>EADV</label>
+    </customValue>
+    <customValue>
+        <fullName>Emily Hutchinson</fullName>
+        <default>false</default>
+        <label>Emily Hutchinson</label>
+    </customValue>
+    <customValue>
+        <fullName>Empire Medical Training</fullName>
+        <default>false</default>
+        <label>Empire Medical Training</label>
+    </customValue>
+    <customValue>
+        <fullName>Erica Current</fullName>
+        <default>false</default>
+        <label>Erica Current</label>
+    </customValue>
+    <customValue>
+        <fullName>Estar Med Spa</fullName>
+        <default>false</default>
+        <label>Estar Med Spa</label>
+    </customValue>
+    <customValue>
+        <fullName>Esthetic Spa International</fullName>
+        <default>false</default>
+        <label>Esthetic Spa International</label>
+    </customValue>
+    <customValue>
+        <fullName>Face and Body</fullName>
+        <default>false</default>
+        <label>Face and Body</label>
+    </customValue>
+    <customValue>
+        <fullName>Facebook</fullName>
+        <default>false</default>
+        <label>Facebook</label>
+    </customValue>
+    <customValue>
+        <fullName>Fall Clinical</fullName>
+        <default>false</default>
+        <label>Fall Clinical</label>
+    </customValue>
+    <customValue>
+        <fullName>Folasade Oyefeso</fullName>
+        <default>false</default>
+        <label>Folasade Oyefeso</label>
+    </customValue>
+    <customValue>
+        <fullName>GDerm</fullName>
+        <default>false</default>
+        <label>GDerm</label>
+    </customValue>
+    <customValue>
+        <fullName>Gina Charles</fullName>
+        <default>false</default>
+        <label>Gina Charles</label>
+    </customValue>
+    <customValue>
+        <fullName>GLIDE</fullName>
+        <default>false</default>
+        <label>GLIDE</label>
+    </customValue>
+    <customValue>
+        <fullName>iCapture</fullName>
+        <default>false</default>
+        <label>iCapture</label>
+    </customValue>
+    <customValue>
+        <fullName>IECSC - Las Vegas</fullName>
+        <default>false</default>
+        <label>IECSC - Las Vegas</label>
+    </customValue>
+    <customValue>
+        <fullName>IECSC - New York</fullName>
+        <default>false</default>
+        <label>IECSC - New York</label>
+    </customValue>
+    <customValue>
+        <fullName>ILM</fullName>
+        <default>false</default>
+        <label>ILM</label>
+    </customValue>
+    <customValue>
+        <fullName>Imahiyerobo-Ip</fullName>
+        <default>false</default>
+        <label>Imahiyerobo-Ip</label>
+    </customValue>
+    <customValue>
+        <fullName>IMCAS</fullName>
+        <default>false</default>
+        <label>IMCAS</label>
+    </customValue>
+    <customValue>
+        <fullName>Instagram</fullName>
+        <default>false</default>
+        <label>Instagram</label>
+    </customValue>
+    <customValue>
+        <fullName>Jack Latimer</fullName>
+        <default>false</default>
+        <label>Jack Latimer</label>
+    </customValue>
+    <customValue>
+        <fullName>Jenna Perkins</fullName>
+        <default>false</default>
+        <label>Jenna Perkins</label>
+    </customValue>
+    <customValue>
+        <fullName>Jessica Young</fullName>
+        <default>false</default>
+        <label>Jessica Young</label>
+    </customValue>
+    <customValue>
+        <fullName>Kelly Hermans</fullName>
+        <default>false</default>
+        <label>Kelly Hermans</label>
+    </customValue>
+    <customValue>
+        <fullName>Kinselle Meana</fullName>
+        <default>false</default>
+        <label>Kinselle Meana</label>
+    </customValue>
+    <customValue>
+        <fullName>Kyle Farr</fullName>
+        <default>false</default>
+        <label>Kyle Farr</label>
+    </customValue>
+    <customValue>
+        <fullName>Larry Helwig/ Clear Skin Institute</fullName>
+        <default>false</default>
+        <label>Larry Helwig/ Clear Skin Institute</label>
+    </customValue>
+    <customValue>
+        <fullName>La-tasha Walker</fullName>
+        <default>false</default>
+        <label>La-tasha Walker</label>
+    </customValue>
+    <customValue>
+        <fullName>Lead Scoring</fullName>
+        <default>false</default>
+        <label>Lead Scoring</label>
+    </customValue>
+    <customValue>
+        <fullName>Lexie Luckner</fullName>
+        <default>false</default>
+        <label>Lexie Luckner</label>
+    </customValue>
+    <customValue>
+        <fullName>LinkedIn</fullName>
+        <default>false</default>
+        <label>LinkedIn</label>
+    </customValue>
+    <customValue>
+        <fullName>LNE</fullName>
+        <default>false</default>
+        <label>LNE</label>
+    </customValue>
+    <customValue>
+        <fullName>Luxe Face and Body</fullName>
+        <default>false</default>
+        <label>Luxe Face and Body</label>
+    </customValue>
+    <customValue>
+        <fullName>MAC</fullName>
+        <default>false</default>
+        <label>MAC</label>
+    </customValue>
+    <customValue>
+        <fullName>Malia Gadiri</fullName>
+        <default>false</default>
+        <label>Malia Gadiri</label>
+    </customValue>
+    <customValue>
+        <fullName>MAP</fullName>
+        <default>false</default>
+        <label>MAP</label>
+    </customValue>
+    <customValue>
+        <fullName>Maria Dhillon</fullName>
+        <default>false</default>
+        <label>Maria Dhillon</label>
+    </customValue>
+    <customValue>
+        <fullName>Masters of Aesthetics</fullName>
+        <default>false</default>
+        <label>Masters of Aesthetics</label>
+    </customValue>
+    <customValue>
+        <fullName>Maui Derm</fullName>
+        <default>false</default>
+        <label>Maui Derm</label>
+    </customValue>
+    <customValue>
+        <fullName>MedEsthetics</fullName>
+        <default>false</default>
+        <label>MedEsthetics</label>
+    </customValue>
+    <customValue>
+        <fullName>Med Spa Show - Raffle</fullName>
+        <default>false</default>
+        <label>Med Spa Show - Raffle</label>
+    </customValue>
+    <customValue>
+        <fullName>Megan Savatgy</fullName>
+        <default>false</default>
+        <label>Megan Savatgy</label>
+    </customValue>
+    <customValue>
+        <fullName>Modern Aesthetics</fullName>
+        <default>false</default>
+        <label>Modern Aesthetics</label>
+    </customValue>
+    <customValue>
+        <fullName>Mudit Arora</fullName>
+        <default>false</default>
+        <label>Mudit Arora</label>
+    </customValue>
+    <customValue>
+        <fullName>NFCM</fullName>
+        <default>false</default>
+        <label>NFCM</label>
+    </customValue>
+    <customValue>
+        <fullName>NMA</fullName>
+        <default>false</default>
+        <label>NMA</label>
+    </customValue>
+    <customValue>
+        <fullName>NMA Derm</fullName>
+        <default>false</default>
+        <label>NMA Derm</label>
+    </customValue>
+    <customValue>
+        <fullName>ODAC</fullName>
+        <default>false</default>
+        <label>ODAC</label>
+    </customValue>
+    <customValue>
+        <fullName>Outgrow</fullName>
+        <default>false</default>
+        <label>Outgrow</label>
+    </customValue>
+    <customValue>
+        <fullName>Phone Call</fullName>
+        <default>false</default>
+        <label>Phone Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Pigmentary Disorders Exchange</fullName>
+        <default>false</default>
+        <label>Pigmentary Disorders Exchange</label>
+    </customValue>
+    <customValue>
+        <fullName>PMFA Journal</fullName>
+        <default>false</default>
+        <label>PMFA Journal</label>
+    </customValue>
+    <customValue>
+        <fullName>Practical Dermatology</fullName>
+        <default>false</default>
+        <label>Practical Dermatology</label>
+    </customValue>
+    <customValue>
+        <fullName>Prollenium</fullName>
+        <default>false</default>
+        <label>Prollenium</label>
+    </customValue>
+    <customValue>
+        <fullName>Purple Labs List</fullName>
+        <default>false</default>
+        <label>Purple Labs List</label>
+    </customValue>
+    <customValue>
+        <fullName>Quench Infusions</fullName>
+        <default>false</default>
+        <label>Quench Infusions</label>
+    </customValue>
+    <customValue>
+        <fullName>RADLA</fullName>
+        <default>false</default>
+        <label>RADLA</label>
+    </customValue>
+    <customValue>
+        <fullName>RegioDerma</fullName>
+        <default>false</default>
+        <label>RegioDerma</label>
+    </customValue>
+    <customValue>
+        <fullName>ROCNY</fullName>
+        <default>false</default>
+        <label>ROCNY</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales Rep - Led</fullName>
+        <default>false</default>
+        <label>Sales Rep - Led</label>
+    </customValue>
+    <customValue>
+        <fullName>Sandy Hunt</fullName>
+        <default>false</default>
+        <label>Sandy Hunt</label>
+    </customValue>
+    <customValue>
+        <fullName>Sarah Berg</fullName>
+        <default>false</default>
+        <label>Sarah Berg</label>
+    </customValue>
+    <customValue>
+        <fullName>Sarah Ford</fullName>
+        <default>false</default>
+        <label>Sarah Ford</label>
+    </customValue>
+    <customValue>
+        <fullName>Savanna Boda</fullName>
+        <default>false</default>
+        <label>Savanna Boda</label>
+    </customValue>
+    <customValue>
+        <fullName>SBS</fullName>
+        <default>false</default>
+        <label>SBS</label>
+    </customValue>
+    <customValue>
+        <fullName>SBS West Coast</fullName>
+        <default>false</default>
+        <label>SBS West Coast</label>
+    </customValue>
+    <customValue>
+        <fullName>SCALE</fullName>
+        <default>false</default>
+        <label>SCALE</label>
+    </customValue>
+    <customValue>
+        <fullName>Science of Skincare Summit</fullName>
+        <default>false</default>
+        <label>Science of Skincare Summit</label>
+    </customValue>
+    <customValue>
+        <fullName>SEME</fullName>
+        <default>false</default>
+        <label>SEME</label>
+    </customValue>
+    <customValue>
+        <fullName>Skin of Color Update</fullName>
+        <default>false</default>
+        <label>Skin of Color Update</label>
+    </customValue>
+    <customValue>
+        <fullName>Skin of Science Summit</fullName>
+        <default>false</default>
+        <label>Skin of Science Summit</label>
+    </customValue>
+    <customValue>
+        <fullName>Slay with Savanna</fullName>
+        <default>false</default>
+        <label>Slay with Savanna</label>
+    </customValue>
+    <customValue>
+        <fullName>SMENL</fullName>
+        <default>false</default>
+        <label>SMENL</label>
+    </customValue>
+    <customValue>
+        <fullName>Sociedad Dermatology De Puerto Rico</fullName>
+        <default>false</default>
+        <label>Sociedad Dermatology De Puerto Rico</label>
+    </customValue>
+    <customValue>
+        <fullName>SOCU</fullName>
+        <default>false</default>
+        <label>SOCU</label>
+    </customValue>
+    <customValue>
+        <fullName>SOMLAMEC</fullName>
+        <default>false</default>
+        <label>SOMLAMEC</label>
+    </customValue>
+    <customValue>
+        <fullName>The Aesthetic Meeting</fullName>
+        <default>false</default>
+        <label>The Aesthetic Meeting</label>
+    </customValue>
+    <customValue>
+        <fullName>The Aesthetic Show</fullName>
+        <default>false</default>
+        <label>The Aesthetic Show</label>
+    </customValue>
+    <customValue>
+        <fullName>The MedSpa Show</fullName>
+        <default>false</default>
+        <label>The MedSpa Show</label>
+    </customValue>
+    <customValue>
+        <fullName>TikTok</fullName>
+        <default>false</default>
+        <label>TikTok</label>
+    </customValue>
+    <customValue>
+        <fullName>Vegas Cosmetic Survey</fullName>
+        <default>false</default>
+        <label>Vegas Cosmetic Survey</label>
+    </customValue>
+    <customValue>
+        <fullName>Victoria de la Fuente</fullName>
+        <default>false</default>
+        <label>Victoria de la Fuente</label>
+    </customValue>
+    <customValue>
+        <fullName>ViPeel</fullName>
+        <default>false</default>
+        <label>ViPeel</label>
+    </customValue>
+    <customValue>
+        <fullName>Wax Spot Med Spa</fullName>
+        <default>false</default>
+        <label>Wax Spot Med Spa</label>
+    </customValue>
+    <customValue>
+        <fullName>Webinar</fullName>
+        <default>false</default>
+        <label>Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>Website</fullName>
+        <default>false</default>
+        <label>Website</label>
+    </customValue>
+    <customValue>
+        <fullName>Winter Clinical</fullName>
+        <default>false</default>
+        <label>Winter Clinical</label>
+    </customValue>
+    <customValue>
+        <fullName>WOCPRS</fullName>
+        <default>false</default>
+        <label>WOCPRS</label>
+    </customValue>
+    <customValue>
+        <fullName>Women of Color in Plastic Surgery</fullName>
+        <default>false</default>
+        <label>Women of Color in Plastic Surgery</label>
+    </customValue>
+    <customValue>
+        <fullName>World Congress of Dermatology</fullName>
+        <default>false</default>
+        <label>World Congress of Dermatology</label>
+    </customValue>
+    <customValue>
+        <fullName>Trade Show</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Trade Show</label>
+    </customValue>
+    <customValue>
+        <fullName>Carolyn Cyprian</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Carolyn Cyprian</label>
+    </customValue>
+    <customValue>
+        <fullName>CS - Lukas Corona</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CS - Lukas Corona</label>
+    </customValue>
+    <customValue>
+        <fullName>CS - Samantha Lowney</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CS - Samantha Lowney</label>
+    </customValue>
+    <customValue>
+        <fullName>SDPR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SDPR</label>
+    </customValue>
+    <customValue>
+        <fullName>Call-In</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Call-In</label>
+    </customValue>
+    <customValue>
+        <fullName>Empire</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Empire</label>
+    </customValue>
+    <customValue>
+        <fullName>Med Spa Show</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Med Spa Show</label>
+    </customValue>
+    <customValue>
+        <fullName>TAS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TAS</label>
+    </customValue>
+    <customValue>
+        <fullName>Scott Pratt</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Scott Pratt</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical International</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Medical International</label>
+    </customValue>
+    <customValue>
+        <fullName>C.O Dermatology</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>C.O Dermatology</label>
+    </customValue>
+    <customValue>
+        <fullName>Direct Message</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Direct Message</label>
+    </customValue>
+    <customValue>
+        <fullName>Lead Forensics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Lead Forensics</label>
+    </customValue>
+    <customValue>
+        <fullName>Advertisement</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Advertisement</label>
+    </customValue>
+    <customValue>
+        <fullName>Representative</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Representative</label>
+    </customValue>
+    <customValue>
+        <fullName>Referral</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Referral</label>
+    </customValue>
+    <customValue>
+        <fullName>Internet Search</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Internet Search</label>
+    </customValue>
+    <customValue>
+        <fullName>Face Shield Campaign</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Face Shield Campaign</label>
+    </customValue>
+    <customValue>
+        <fullName>Direct Mail</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Direct Mail</label>
+    </customValue>
+    <customValue>
+        <fullName>Direct Email</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Direct Email</label>
+    </customValue>
+    <masterLabel>Second Lead Source</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Renfrew Zip Code Group 5</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7V 2G8,K7V 2G9,K7V 2H1,K7V 2H2,K7V 2H3,K7V 2H4,K7V 2H5,K7V 2H6,K7V 2H7,K7V 2H8,K7V 2H9,K7V 2J1</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7V 2J2,K7V 2J3,K7V 2J4,K7V 2J5,K7V 2J6,K7V 2J7,K7V 2J8,K7V 2J9,K7V 2K1,K7V 2K2,K7V 2K3,K7V 2K4</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7V 2K5,K7V 2K6,K7V 2K7,K7V 2K8,K7V 2K9,K7V 2L1,K7V 2L2,K7V 2L3,K7V 2L4,K7V 2L5,K7V 2L6,K7V 2L9</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7V 2M1,K7V 2M2,K7V 2M3,K7V 2M4,K7V 2M5,K7V 2M6,K7V 2M7,K7V 2M8,K7V 2M9,K7V 2N1,K7V 2N2,K7V 2N3</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7V 2N4,K7V 2N5,K7V 2N6,K7V 2N7,K7V 2N8,K7V 2N9,K7V 2P1,K7V 2P2,K7V 2P3,K7V 2P4,K7V 2P5,K7V 2P6</value>
+    </ruleItems>
+</Territory2Rule>

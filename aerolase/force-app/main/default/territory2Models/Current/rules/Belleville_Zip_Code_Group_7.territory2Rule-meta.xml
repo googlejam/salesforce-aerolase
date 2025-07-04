@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+    <name>Belleville Zip Code Group 7</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K8N 2M2,K8N 2M3,K8N 2M4,K8N 2M5,K8N 2M6,K8N 2M7,K8N 2M8,K8N 2M9,K8N 2N1,K8N 2N2,K8N 2N3,K8N 2N4</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K8N 2N5,K8N 2N6,K8N 2N7,K8N 2N8,K8N 2N9,K8N 2P1,K8N 2P2,K8N 2P3,K8N 2P4,K8N 2P5,K8N 2P6,K8N 2P7</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K8N 2P8,K8N 2P9,K8N 2R1,K8N 2R2,K8N 2R3,K8N 2R4,K8N 2R5,K8N 2R6,K8N 2R7,K8N 2R8,K8N 2S3,K8N 2S5</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K8N 2S6,K8N 2S7,K8N 2S8,K8N 2S9</value>
+    </ruleItems>
+</Territory2Rule>

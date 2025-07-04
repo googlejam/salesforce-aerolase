@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Washington, Nowata, Craig, Ottawa, Ellis, Woodward, Major, Garfield</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>74004,74005,74006,74022,74029,74051,74061,74082,74027,74042,74048,74072</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>74083,74301,74332,74333,74369,74331,74335,74339,74343,74354,74355,74358</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>74360,74363,74370,73832,73840,73843,73858,73801,73802,73841,73852,73853</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73857,73718,73729,73737,73747,73760,73768,73838,73701,73702,73703,73705</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73706,73720,73727,73730,73733,73735,73736,73738,73743,73753,73754,73773</value>
+    </ruleItems>
+</Territory2Rule>

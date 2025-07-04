@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <name>Elko County</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>89801,89802,89803,89815,89822,89823,89825,89826,89828,89830,89831,89832</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>89833,89834,89835,89883</value>
+    </ruleItems>
+</Territory2Rule>

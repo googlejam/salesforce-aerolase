@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Gananoque Zip Code Group 6</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7G 2S9,K7G 2T1,K7G 2T2,K7G 2T3,K7G 2T4,K7G 2T5,K7G 2T6,K7G 2T7,K7G 2T8,K7G 2T9,K7G 2V1,K7G 2V2</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7G 2V3,K7G 2V4,K7G 2V5,K7G 2V6,K7G 2V9,K7G 2W2,K7G 2W3,K7G 2W4,K7G 2W5,K7G 2W6,K7G 2W7,K7G 2W9</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7G 2X2,K7G 2X3,K7G 2X4,K7G 2X5,K7G 2X6,K7G 2X7,K7G 2X8,K7G 2X9,K7G 2Y1,K7G 2Y2,K7G 2Y3,K7G 2Y5</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7G 2Y6,K7G 2Y7,K7G 2Y8,K7G 2Z1,K7G 2Z2,K7G 3A3,K7G 3A4,K7G 3A5,K7G 3A6,K7G 3A8,K7G 3A9,K7G 3B1</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7G 3B3,K7G 3B4,K7G 3B5,K7G 3B6,K7G 3B7,K7G 3B8,K7G 3B9,K7G 3C1,K7G 3C3,K7G 3C4,K7G 3C5,K7G 3C6</value>
+    </ruleItems>
+</Territory2Rule>

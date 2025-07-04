@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <name>Yolo County</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>95605,95606,95607,95612,95616,95617,95618,95627,95637,95645,95653,95679</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>95691,95694,95695,95697,95698,95776,95798,95799,95937</value>
+    </ruleItems>
+</Territory2Rule>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Pottawatomie, Seminole, Hughes, Pittsburg, Latimer, Le Flore</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>74802,74804,74826,74840,74851,74852,74854,74866,74873,74878,74818,74830</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>74837,74849,74867,74868,74884,74531,74570,74827,74839,74848,74850,74883</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>74425,74430,74442,74501,74502,74522,74528,74529,74546,74547,74553,74554</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>74560,74561,74565,74576,74545,74559,74563,74571,74578,74549,74577,74901</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>74902,74930,74932,74935,74937,74939,74940,74942,74947,74949,74951,74953</value>
+    </ruleItems>
+</Territory2Rule>

@@ -1,0 +1,15 @@
+Hi {!Contact.FirstName},
+
+I just wanted to quickly check in to see how everything is going? Please let me know if there is anything I can do to help. Additionally, please remember that you have access to our dedicated customer support team by emailing them at success@aerolase.com. They will take great care of you. 
+
+Anyway, take care and I will continue to keep in touch.
+
+Sincerely,
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}
+Aerolase
+{!User.Phone} call or text
+{!User.Email}
+www.aerolase.com
+www.instagram.com/davidbays.aerolase

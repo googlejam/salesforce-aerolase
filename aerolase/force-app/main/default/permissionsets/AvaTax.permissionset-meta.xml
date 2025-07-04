@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingAccesses>
+        <enabled>true</enabled>
+        <name>AVA_SFCLOUD__AdditionalSettings__c</name>
+    </customSettingAccesses>
+    <customSettingAccesses>
+        <enabled>true</enabled>
+        <name>AVA_SFCLOUD__AvaTax__c</name>
+    </customSettingAccesses>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>AvaTax</label>
+    <pageAccesses>
+        <apexPage>AVA_SFCLOUD__Opportunity_Calculate_Tax</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>AVA_SFCLOUD__Order_Calculate_Tax</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>AVA_SFCLOUD__Quote_Calculate_Tax</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+</PermissionSet>

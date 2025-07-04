@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Wharton Matagorde, Jackson, Lavaca, Gonzales, De Witt, Victoria, Calhoun</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77467,77488,77404,77414,77415,77419,77428,77440,77456,77457,77458,77465</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77468,77482,77483,77957,77961,77962,77969,77970,77971,77991,77964,77975</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77984,77986,77987,77995,78122,78140,78159,78604,78614,78629,78632,78658</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78677,78959,77954,77967,77974,77989,77994,78141,78164,77901,77902,77903</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77904,77905,77951,77968,77973,77976,77977,77988,77978,77979,77982,77983</value>
+    </ruleItems>
+</Territory2Rule>

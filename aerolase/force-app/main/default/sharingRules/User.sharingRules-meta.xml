@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Theresa_Yudelky_Toni</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Theresa/Yudelky/Toni</label>
+        <sharedTo>
+            <group>Yudelky_Toni</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Yudelky_Toni</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

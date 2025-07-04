@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Rencontrez vos nouveaux interlocuteurs en France et échangez avec eux sur les lasers Aerolase !</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>French Agents Introduction Email</name>
+    <style>none</style>
+    <subject>🤝 Aerolase s&apos;étend sur le marché français, découvrez vos nouveaux contacts privilégiés !</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

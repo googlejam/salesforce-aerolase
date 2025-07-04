@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Glascock, Gordon, Greene, Gwinnett, Habersham, Hall, Hancock, Haralson, Harris</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>30810,30820,30139,30701,30733,30734,30735,30746,30642,30669,30678,30017</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>30019,30024,30039,30043,30044,30045,30046,30047,30071,30078,30092,30093</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>30096,30099,30518,30519,30510,30523,30531,30535,30563,30501,30504,30506</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>30507,30527,30542,30543,30554,30564,30566,31087,30110,30113,30176,30182</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>31804,31807,31811,31822,31823,31826,31831</value>
+    </ruleItems>
+</Territory2Rule>

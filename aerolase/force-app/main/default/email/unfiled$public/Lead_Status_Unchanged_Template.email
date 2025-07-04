@@ -1,0 +1,6 @@
+Hi {!Lead.OwnerFirstName},
+
+Your Lead {!Lead.Name} status is unchanged from last 48 hours.
+Please verify and update the status accordingly by clicking on the link below.
+
+{!Lead.Link}

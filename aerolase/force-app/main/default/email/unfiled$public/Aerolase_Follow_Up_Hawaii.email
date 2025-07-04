@@ -1,0 +1,17 @@
+Dear {!Contact.FirstName},
+
+Thank you for your interest in Aerolase, the leader in innovative laser solutions for acne, melasma, psoriasis, vascular, skin of color, and more. We look forward to hopefully working with you. 
+
+Please let me know a good day and time that would work for you to connect via zoom so that I can better understand your clinic needs. You can text me at {!User.Phone} if that works best. In the meantime, here is the link to some assets you may find helpful including studies, slide decks, and before and after photos. https://tinyurl.com/2vnh8xm6 
+
+Please let me know if you have any additional questions, and thank you again.
+
+Sincerely,
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}
+Aerolase
+{!User.Phone} call or text
+{!User.Email}
+www.aerolase.com
+www.instagram.com/aerolase

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Nueces, Kleberg, Kenedy, Willacy, Cameron</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78402,78403,78404,78405,78406,78407,78408,78409,78410,78411,78412,78413</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78414,78415,78416,78417,78418,78419,78426,78427,78460,78463,78465,78466</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78467,78468,78469,78472,78480,78363,78364,78379,78338,78385,78561,78569</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78580,78590,78594,78598,78520,78521,78522,78523,78526,78535,78550,78551</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78552,78553,78559,78566,78567,78568,78575,78578,78583,78586,78592,78593</value>
+    </ruleItems>
+</Territory2Rule>

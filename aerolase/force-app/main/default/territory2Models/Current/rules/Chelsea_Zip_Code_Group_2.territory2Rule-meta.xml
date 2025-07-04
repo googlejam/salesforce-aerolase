@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Chelsea Zip Code Group 2</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>J9B 1J2,J9B 1J3,J9B 1J4,J9B 1J5,J9B 1J6,J9B 1J7,J9B 1J8,J9B 1J9,J9B 1K1,J9B 1K2,J9B 1K3,J9B 1K4</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>J9B 1K5,J9B 1K6,J9B 1K7,J9B 1K8,J9B 1K9,J9B 1L1,J9B 1L2,J9B 1L3,J9B 1L4,J9B 1L5,J9B 1L6,J9B 1L7</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>J9B 1L8,J9B 1L9,J9B 1M1,J9B 1M2,J9B 1M3,J9B 1M4,J9B 1M5,J9B 1M6,J9B 1M7,J9B 1M8,J9B 1M9,J9B 1N1</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>J9B 1N2,J9B 1N3,J9B 1N4,J9B 1N5,J9B 1N6,J9B 1N7,J9B 1N8,J9B 1N9,J9B 1P1,J9B 1P2,J9B 1P3,J9B 1P4</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>J9B 1P5,J9B 1P6,J9B 1P7,J9B 1P8,J9B 1P9,J9B 1R1,J9B 1R2,J9B 1R3,J9B 1R4,J9B 1R5,J9B 1R6,J9B 1R7</value>
+    </ruleItems>
+</Territory2Rule>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Medical Doctor</fullName>
+        <default>false</default>
+        <label>Medical Doctor</label>
+    </customValue>
+    <customValue>
+        <fullName>Other Professional</fullName>
+        <default>false</default>
+        <label>Other Professional</label>
+    </customValue>
+    <customValue>
+        <fullName>Patient/Consumer</fullName>
+        <default>false</default>
+        <label>Patient/Consumer</label>
+    </customValue>
+    <customValue>
+        <fullName>Skin Health Professional</fullName>
+        <default>false</default>
+        <label>Skin Health Professional</label>
+    </customValue>
+    <masterLabel>What Best Describes You?</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

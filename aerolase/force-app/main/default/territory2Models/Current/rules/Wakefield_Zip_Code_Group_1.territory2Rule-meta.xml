@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3</booleanFilter>
+    <name>Wakefield Zip Code Group 1</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>E7M 1A3,E7M 1A4,E7M 1A5,E7M 1A6,E7M 1A7,E7M 1A8,E7M 1A9,E7M 1B1,E7M 1B2,E7M 1B4,E7M 3V9,E7M 3W1</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>E7M 3W2,E7M 3W3,E7M 3W4,E7M 3W5,E7M 3W6,E7M 3W7,E7M 3W8,E7M 3W9,E7M 3X1,E7M 3X2,E7M 3X3,E7M 3X4</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>E7M 3X5</value>
+    </ruleItems>
+</Territory2Rule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Sales Rep: Template 4 - Lead: Case Study Highlight</name>
+    <style>none</style>
+    <subject>See How [Product Name] Improved Outcomes at [Client/Institution]</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

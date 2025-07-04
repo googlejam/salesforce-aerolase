@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Up</name>
+        <label>Populate Opp Name Or Adjust</label>
+        <locationX>446</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Populate_Opp_Name</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ISNEW</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>UpdateOpportunityName</targetReference>
+            </connector>
+            <label>Populate Opp Name</label>
+        </rules>
+        <rules>
+            <name>AdjustName</name>
+            <conditionLogic>(1 OR 3) AND 2 AND 4</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Device_Type__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>ISNEW</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Name</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>NewOppName</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Deal_Funded_Stage_Conversion_Date__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>AdjustOpportunityName</targetReference>
+            </connector>
+            <label>AdjustName</label>
+        </rules>
+        <rules>
+            <name>Adjust_Name_for_Deal_Funded_Stage</name>
+            <conditionLogic>(1 OR 2) AND 3 AND 4</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Device_Type__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Name</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>NewOppNameForDealfunded</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>ISNEW</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Deal_Funded_Stage_Conversion_Date__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Name_with_Deal_funded_Date</targetReference>
+            </connector>
+            <label>Adjust Name for Deal Funded Stage</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>ISNEW</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
+    </formulas>
+    <formulas>
+        <name>NewOppName</name>
+        <dataType>String</dataType>
+        <expression>IF(NOT(ISBLANK(TEXT({!$Record.Device_Type__c}))), {!OpportunityNameWithDevice}, {!OpportunityNameWithoutDevice})</expression>
+    </formulas>
+    <formulas>
+        <name>NewOppNameForDealfunded</name>
+        <dataType>String</dataType>
+        <expression>IF(NOT(ISBLANK(TEXT({!$Record.Device_Type__c}))),{!OpportunityNameWithDeviceForDealfunded},{!OpportunityNameWithoutDeviceForDealfunded} )</expression>
+    </formulas>
+    <formulas>
+        <name>OpportunityNameWithDevice</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Account.Name} + &quot; - &quot; + TEXT({!$Record.Device_Type__c}) + &quot; - &quot; + {!$Record.Primary_Contact__r.FirstName} + &quot; &quot; + {!$Record.Primary_Contact__r.LastName} + &quot; - &quot; + TEXT(DATEVALUE({!$Record.CreatedDate}))</expression>
+    </formulas>
+    <formulas>
+        <name>OpportunityNameWithDeviceForDealfunded</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Account.Name} + &quot; - &quot; + TEXT({!$Record.Device_Type__c}) + &quot; - &quot; + {!$Record.Primary_Contact__r.FirstName} + &quot; &quot; + {!$Record.Primary_Contact__r.LastName} + &quot; - &quot; + TEXT(DATEVALUE({!$Record.Deal_Funded_Stage_Conversion_Date__c}))</expression>
+    </formulas>
+    <formulas>
+        <name>OpportunityNameWithoutDevice</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Account.Name} + &quot; - &quot; + {!$Record.Primary_Contact__r.FirstName} + &quot; &quot; + {!$Record.Primary_Contact__r.LastName} + &quot; - &quot; + TEXT(DATEVALUE({!$Record.CreatedDate}))</expression>
+    </formulas>
+    <formulas>
+        <name>OpportunityNameWithoutDeviceForDealfunded</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Account.Name} + &quot; - &quot; + {!$Record.Primary_Contact__r.FirstName} + &quot; &quot; + {!$Record.Primary_Contact__r.LastName} + &quot; - &quot; + TEXT(DATEVALUE({!$Record.Deal_Funded_Stage_Conversion_Date__c}))</expression>
+    </formulas>
+    <interviewLabel>UpdateOpportunityName {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>UpdateOpportunityName</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>AdjustOpportunityName</name>
+        <label>AdjustOpportunityName</label>
+        <locationX>314</locationX>
+        <locationY>431</locationY>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>NewOppName</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Name_with_Deal_funded_Date</name>
+        <label>Update Name with Deal funded Date</label>
+        <locationX>578</locationX>
+        <locationY>431</locationY>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>NewOppNameForDealfunded</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>UpdateOpportunityName</name>
+        <label>UpdateOpportunityName</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>NewOppName</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>320</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Up</targetReference>
+        </connector>
+        <filterFormula>OR(
+{!$Record.Name} != {!$Record.Account.Name} + &quot; - &quot; + TEXT({!$Record.Device_Type__c}) + &quot; - &quot; + {!$Record.Primary_Contact__r.FirstName} + &quot; &quot; + {!$Record.Primary_Contact__r.LastName} + &quot; - &quot; + TEXT(DATEVALUE({!$Record.CreatedDate})),
+{!$Record.Name} != {!$Record.Account.Name} + &quot; - &quot; + {!$Record.Primary_Contact__r.FirstName} + &quot; &quot; + {!$Record.Primary_Contact__r.LastName} + &quot; - &quot; + TEXT(DATEVALUE({!$Record.CreatedDate})),
+{!$Record.Name} != {!$Record.Account.Name} + &quot; - &quot; + TEXT({!$Record.Device_Type__c}) + &quot; - &quot; + {!$Record.Primary_Contact__r.FirstName} + &quot; &quot; + {!$Record.Primary_Contact__r.LastName} + &quot; - &quot; + TEXT(DATEVALUE({!$Record.Deal_Funded_Stage_Conversion_Date__c})),
+{!$Record.Name} != {!$Record.Account.Name} + &quot; - &quot; + {!$Record.Primary_Contact__r.FirstName} + &quot; &quot; + {!$Record.Primary_Contact__r.LastName} + &quot; - &quot; + TEXT(DATEVALUE({!$Record.Deal_Funded_Stage_Conversion_Date__c}))
+)</filterFormula>
+        <object>Opportunity</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

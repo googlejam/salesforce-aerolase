@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>Rock Island Zip Code Group 1</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>61201,61204,61232,61236,61237,61239,61240,61242,61244,61256,61257,61259</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>61264,61265,61266,61275,61278,61279,61282,61284,61299</value>
+    </ruleItems>
+</Territory2Rule>

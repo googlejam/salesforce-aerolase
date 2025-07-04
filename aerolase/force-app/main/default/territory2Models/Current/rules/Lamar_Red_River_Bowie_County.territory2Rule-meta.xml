@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+    <name>Lamar, Red River &amp; Bowie County</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>75411,75416,75421,75425,75434,75435,75460,75461,75462,75468,75470,75473</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>75477,75486,75412,75417,75426,75436,75550,75554</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>75501,75503,75504,75505,75507,75559,75561,75567,75569,75570,75573,75574</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>75599</value>
+    </ruleItems>
+</Territory2Rule>

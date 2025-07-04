@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Huntsville Zip Code Group 4</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>P1H 1X3,P1H 1X4,P1H 1X5,P1H 1X6,P1H 1X7,P1H 1X8,P1H 1X9,P1H 1Y1,P1H 1Y2,P1H 1Y3,P1H 1Y4,P1H 1Y5</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>P1H 1Y6,P1H 1Y7,P1H 1Y8,P1H 1Y9,P1H 1Z1,P1H 1Z3,P1H 1Z6,P1H 1Z9,P1H 2A2,P1H 2A4,P1H 2A5,P1H 2A6</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>P1H 2A7,P1H 2A8,P1H 2A9,P1H 2B1,P1H 2B2,P1H 2B3,P1H 2B4,P1H 2B6,P1H 2B7,P1H 2B8,P1H 2B9,P1H 2C1</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>P1H 2C2,P1H 2C3,P1H 2C4,P1H 2C5,P1H 2C6,P1H 2C7,P1H 2C8,P1H 2C9,P1H 2E1,P1H 2E8,P1H 2G1,P1H 2G5</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>P1H 2G6,P1H 2G7,P1H 2G8,P1H 2G9,P1H 2H1,P1H 2H2,P1H 2H3,P1H 2H4,P1H 2H5,P1H 2J1,P1H 2J2,P1H 2J3</value>
+    </ruleItems>
+</Territory2Rule>

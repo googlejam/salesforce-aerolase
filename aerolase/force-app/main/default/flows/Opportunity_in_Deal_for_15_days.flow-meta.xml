@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <environments>Default</environments>
+    <interviewLabel>Opportunity in Deal for 15 days {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Opportunity in Deal for 15 days</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <runInMode>DefaultMode</runInMode>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Wait_for_Amount_of_Time_1</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+    <variables>
+        <name>OpportunityStageNoChange</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>OpportunityStage</objectType>
+    </variables>
+    <waits>
+        <name>Wait_for_Amount_of_Time_1</name>
+        <elementSubtype>WaitDuration</elementSubtype>
+        <label>Wait for Amount of Time 1</label>
+        <locationX>176</locationX>
+        <locationY>134</locationY>
+        <defaultConnectorLabel>Default Path</defaultConnectorLabel>
+        <waitEvents>
+            <conditionLogic>and</conditionLogic>
+            <label>el_0</label>
+            <offset>15</offset>
+            <offsetUnit>Days</offsetUnit>
+        </waitEvents>
+    </waits>
+</Flow>

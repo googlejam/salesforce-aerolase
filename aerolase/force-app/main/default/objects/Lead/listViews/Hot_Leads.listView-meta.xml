@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hot_Leads</fullName>
+    <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>Lead_Score__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Secondary_Lead_Owner__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LAST_EMAIL_DATE</columns>
+    <columns>LAST_ACTIVITY_DATETIME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Lead_Score__c</field>
+        <operation>equals</operation>
+        <value>HOT</value>
+    </filters>
+    <filters>
+        <field>SecondaryLeadOwner__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>MyLead__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Hot Leads</label>
+</ListView>

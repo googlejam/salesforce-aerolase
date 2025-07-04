@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>CA - Zip Group 5</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>93453,93454,93455,93456,93457,93458,93460,93461,93463,93464,93465,93475,93483,93501,93502,93504,93505,93510,93516,93518,93519,93523,93524,93527,93528,93531,93532,93534,93535,93536,93539,93543,93544,93550,93551,93552,93553,93554,93555,93556,93558,93560,93561,93562,93563,93581,93584,93586,93590,93591,93592,93596,93599</value>
+    </ruleItems>
+</Territory2Rule>

@@ -1,0 +1,7 @@
+Hi {!Opportunity.OwnerFirstName},
+
+Your opportunity has passed it's closed date and still it is not closed.
+
+Need your attention! Please click on the link below to view the record and do the needful:-
+
+{!Opportunity.Link}

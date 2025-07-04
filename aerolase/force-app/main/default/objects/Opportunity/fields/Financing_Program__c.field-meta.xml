@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Financing_Program__c</fullName>
+    <label>Financing Program</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cash/Self Financed</fullName>
+                <default>false</default>
+                <label>Cash/Self Financed</label>
+            </value>
+            <value>
+                <fullName>3rdParty</fullName>
+                <default>false</default>
+                <label>3rd Party</label>
+            </value>
+            <value>
+                <fullName>Partnership/No Interest (AML)</fullName>
+                <default>false</default>
+                <label>AML/Internal Financing</label>
+            </value>
+            <value>
+                <fullName>Subscription/Rental</fullName>
+                <default>false</default>
+                <label>Subscription</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

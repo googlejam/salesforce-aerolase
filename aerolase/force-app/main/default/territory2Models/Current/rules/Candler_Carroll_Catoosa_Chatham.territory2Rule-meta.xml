@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+    <name>Candler, Carroll, Catoosa, Chatham, Chattahoochee, Chattooga, Cherokee County</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>30439,30108,30116,30117,30118,30119,30170,30179,30180,30185,30736,30742</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>31302,31322,31328,31401,31404,31405,31406,31407,31408,31410,31411,31415</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>31419,31421,31805,30730,30731,30747,30753,30102,30107,30114,30114,30115</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>30115,30183,30188,30188,30189</value>
+    </ruleItems>
+</Territory2Rule>

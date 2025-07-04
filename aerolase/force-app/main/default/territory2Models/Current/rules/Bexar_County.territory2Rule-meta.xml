@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Bexar County</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78002,78023,78054,78069,78073,78101,78109,78112,78148,78150,78152,78201</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78202,78203,78204,78205,78206,78207,78208,78209,78210,78211,78212,78213</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78214,78215,78216,78217,78218,78219,78220,78221,78222,78223,78224,78225</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78226,78227,78228,78229,78230,78231,78232,78233,78234,78235,78236,78237</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78238,78239,78240,78241,78242,78243,78244,78245,78246,78247,78248,78249</value>
+    </ruleItems>
+</Territory2Rule>

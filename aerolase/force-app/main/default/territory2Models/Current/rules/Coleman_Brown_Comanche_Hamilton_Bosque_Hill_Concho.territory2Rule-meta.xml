@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Coleman, Brown, Comanche, Hamilton, Bosque, Hill, Concho</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>76828,76834,76845,76873,76878,76882,76884,76888,79519,79538,76432,76801</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>76802,76803,76804,76823,76827,76857,76890,76442,76444,76452,76455,76468</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>76474,76436,76457,76531,76565,76634,76637,76644,76649,76652,76665,76671</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>76689,76690,76055,76621,76622,76627,76628,76631,76636,76645,76648,76650</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>76660,76666,76673,76676,76692,76837,76855,76862,76866,76937,76799</value>
+    </ruleItems>
+</Territory2Rule>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deliverables__c</fullName>
+    <label>Deliverables</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Speaking Engagement for Aerolase</fullName>
+                <default>false</default>
+                <label>Speaking Engagement for Aerolase</label>
+            </value>
+            <value>
+                <fullName>Prospect Introduction</fullName>
+                <default>false</default>
+                <label>Prospect Introduction</label>
+            </value>
+            <value>
+                <fullName>Purchase Secondary Device at Discounted Rate</fullName>
+                <default>false</default>
+                <label>Purchase Secondary Device at Discounted Rate</label>
+            </value>
+            <value>
+                <fullName>KOL Agreement</fullName>
+                <default>false</default>
+                <label>KOL Agreement</label>
+            </value>
+            <value>
+                <fullName>Before &amp; Afters</fullName>
+                <default>false</default>
+                <label>Before &amp; Afters</label>
+            </value>
+            <value>
+                <fullName>Video testimonial for Aerolase</fullName>
+                <default>false</default>
+                <label>Video testimonial for Aerolase</label>
+            </value>
+            <value>
+                <fullName>Clinical Reference For Calls</fullName>
+                <default>false</default>
+                <label>Clinical Reference For Calls</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

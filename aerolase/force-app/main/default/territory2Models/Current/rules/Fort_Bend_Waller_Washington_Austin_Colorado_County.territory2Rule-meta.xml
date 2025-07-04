@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Fort Bend, Waller, Washington, Austin, &amp; Colorado County</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77053,77406,77407,77417,77441,77444,77451,77459,77461,77464,77469,77471</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77476,77477,77478,77479,77481,77487,77489,77494,77496,77497,77498,77545</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77423,77445,77446,77466,77426,77833,77834,77835,77880</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77418,77452,77473,77474,77485,78931,78933,78944,78950</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77412,77434,77442,77460,77470,77475,78934,78935,78943,78951,78962</value>
+    </ruleItems>
+</Territory2Rule>

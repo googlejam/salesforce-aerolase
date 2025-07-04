@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Dawson, Dekalb, Dodge, Dooly, Douglas, Effingham, Elbert, Emanuel, Evans County</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>30534,30002,30021,30030,30032,30033,30034,30035,30038,30058,30079,30083</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>30084,30087,30088,30294,30317,30319,30322,30329,30338,30340,30341,30345</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>30346,30360,39901,31011,31012,31023,31060,31077,31007,31070,31091,31092</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>30122,30134,30135,30187,31303,31312,31326,31329,30624,30634,30635,30401</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>30425,30471,31002,30417</value>
+    </ruleItems>
+</Territory2Rule>

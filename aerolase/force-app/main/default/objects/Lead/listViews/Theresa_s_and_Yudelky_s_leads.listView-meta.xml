@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Theresa_s_and_Yudelky_s_leads</fullName>
+    <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE_CODE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.FIRST_NAME</field>
+        <operation>equals</operation>
+        <value>Yudelky</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.FIRST_NAME</field>
+        <operation>equals</operation>
+        <value>Theresa</value>
+    </filters>
+    <filters>
+        <field>Lead_Score__c</field>
+        <operation>equals</operation>
+        <value>Hot</value>
+    </filters>
+    <label>Theresa&apos;s and Yudelky&apos;s HOT leads</label>
+    <sharedTo></sharedTo>
+</ListView>

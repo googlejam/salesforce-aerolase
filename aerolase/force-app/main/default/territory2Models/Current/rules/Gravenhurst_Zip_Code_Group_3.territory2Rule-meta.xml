@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Gravenhurst Zip Code Group 3</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>P1P 1R1,P1P 1R2,P1P 1R3,P1P 1R4,P1P 1R5,P1P 1R6,P1P 1R7,P1P 1R8,P1P 1R9,P1P 1S1,P1P 1S2,P1P 1S3</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>P1P 1S4,P1P 1S5,P1P 1S6,P1P 1S7,P1P 1S9,P1P 1T1,P1P 1T5,P1P 1T6,P1P 1T7,P1P 1T8,P1P 1T9,P1P 1V1</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>P1P 1V2,P1P 1V3,P1P 1V4,P1P 1V5,P1P 1W9,P1P 1X2,P1P 1X3,P1P 1X4,P1P 1X6,P1P 1X7,P1P 1X8,P1P 1X9</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>P1P 1Y2,P1P 1Y3,P1P 1Y4,P1P 1Y5,P1P 1Y6,P1P 1Y7,P1P 1Y8,P1P 1Y9,P1P 1Z1,P1P 1Z2,P1P 1Z3,P1P 1Z4</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>P1P 1Z5,P1P 1Z6,P1P 1Z9</value>
+    </ruleItems>
+</Territory2Rule>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3</booleanFilter>
+    <name>Lowndes, Miller, Mitchell, Quitman, Randolph, Seminole, Terrell, Thomas</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>31601,31602,31605,31606,31632,31636,31641,31698,39837,31716,31730,31779</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>31784,39854,39836,39840,39886,39845,39859,39826,39842,39877,31626,31738</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>31757,31765,31773,31778,31792</value>
+    </ruleItems>
+</Territory2Rule>

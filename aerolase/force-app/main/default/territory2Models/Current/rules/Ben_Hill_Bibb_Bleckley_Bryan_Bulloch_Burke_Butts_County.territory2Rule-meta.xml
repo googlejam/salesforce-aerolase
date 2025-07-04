@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3</booleanFilter>
+    <name>Ben Hill, Bibb, Bleckley, Bryan, Bulloch, Burke, Butts County</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>31750,31052,31201,31204,31206,31207,31210,31211,31213,31216,31217,31220</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>31294,31295,31296,31014,31308,31321,31324,30415,30450,30452,30458,30460</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>30461,30426,30441,30456,30816,30830,30216,30233,30234</value>
+    </ruleItems>
+</Territory2Rule>

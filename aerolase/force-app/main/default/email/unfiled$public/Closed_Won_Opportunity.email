@@ -1,0 +1,3 @@
+{!Opportunity.Name} is closed won.
+
+Opportunity link: {!Opportunity.Link}

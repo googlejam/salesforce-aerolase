@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Laser</fullName>
+        <default>false</default>
+        <label>Laser</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Accessory</fullName>
+        <default>false</default>
+        <label>Accessory</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Service</fullName>
+        <default>false</default>
+        <label>Service</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Training</fullName>
+        <default>false</default>
+        <label>Training</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Warranty</fullName>
+        <default>false</default>
+        <label>Warranty</label>
+    </standardValue>
+</StandardValueSet>

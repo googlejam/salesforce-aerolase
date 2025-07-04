@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2 xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accountAccessLevel>Edit</accountAccessLevel>
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <name>Canada - Shawville, Cobden, Eganville, Golden Lake</name>
+    <objectAccessLevels>
+        <accessLevel>Transfer</accessLevel>
+        <objectType>Lead</objectType>
+    </objectAccessLevels>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentTerritory>Canada</parentTerritory>
+    <ruleAssociations>
+        <inherited>false</inherited>
+        <ruleName>Cobden_Zip_Code_Group</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>false</inherited>
+        <ruleName>Eganville_Zip_Code_Group</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>false</inherited>
+        <ruleName>Golden_Lake_Zip_Code_Group</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>false</inherited>
+        <ruleName>Shawville_Zip_Code_Group</ruleName>
+    </ruleAssociations>
+    <territory2Type>Geography</territory2Type>
+</Territory2>

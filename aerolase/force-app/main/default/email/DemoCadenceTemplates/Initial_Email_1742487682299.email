@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: 0%;">
+<p style="line-height:1.38; margin-top:19px"><span style="font-size:11pt; font-variant-ligatures:normal; font-variant-alternates:normal; font-variant-numeric:normal; font-variant-east-asian:normal; font-variant-position:normal; white-space:pre-wrap"><span style="font-family:Arial, sans-serif"><span style="color:#0e101a"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Hi </span></span></span></span><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">{{{Recipient.FirstName}}},</span></span></span></span></span></span></p>
+
+<p style="line-height:1.38"><span style="font-size:11pt; font-variant-ligatures:normal; font-variant-alternates:normal; font-variant-numeric:normal; font-variant-east-asian:normal; font-variant-position:normal; white-space:pre-wrap"><span style="font-family:Arial, sans-serif"><span style="color:#0e101a"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">I look forward to speaking with you and explaining how Aerolase enables you to treat the unique range of medical indications on all skin types, including tanned or darker skin tones.</span></span></span></span></span></span></p>
+
+<p style="line-height:1.38"><span style="font-size:11pt; font-variant-ligatures:normal; font-variant-alternates:normal; font-variant-numeric:normal; font-variant-east-asian:normal; font-variant-position:normal; white-space:pre-wrap"><span style="font-family:Arial, sans-serif"><span style="color:#0e101a"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Aerolase provides many benefits in terms of a premium patient experience and quick payback on your investment.&nbsp;</span></span></span></span></span></span></p>
+
+<p style="line-height:1.38"><span style="font-size:11pt; font-variant-ligatures:normal; font-variant-alternates:normal; font-variant-numeric:normal; font-variant-east-asian:normal; font-variant-position:normal; white-space:pre-wrap"><span style="font-family:Arial, sans-serif"><span style="color:#0e101a"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">I would love to speak with you if you have a few minutes to chat!</span></span></span></span></span></span></p>
+<br />
+<span style="font-size:11pt; font-variant-ligatures:normal; font-variant-alternates:normal; font-variant-numeric:normal; font-variant-east-asian:normal; font-variant-position:normal; white-space:pre-wrap"><span style="font-family:Arial, sans-serif"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none"><strong>{{{Sender.FirstName}}}<br />
+{{{Sender.Title}}}<br />
+{{{Sender.Phone}}}</strong></span></span></span></span></span></span>
+
+<p style="line-height:1.38">&nbsp;</p>
+
+<p style="line-height:1.38; margin-top:16px; margin-bottom:16px"><br />
+<span style="font-size:10px;"><span style="font-variant-ligatures: normal; font-variant-alternates: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; white-space: pre-wrap;"><span style="font-family:Arial, sans-serif"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">If you no longer wish to receive emails related to this, please reply “STOP”</span></span></span></span></span></span></span></p>
+</body>
+</html>

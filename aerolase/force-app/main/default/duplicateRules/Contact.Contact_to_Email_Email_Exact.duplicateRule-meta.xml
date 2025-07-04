@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DuplicateRule xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actionOnInsert>Block</actionOnInsert>
+    <actionOnUpdate>Block</actionOnUpdate>
+    <alertText>This Contact already exists as a Lead. Please use the existing Lead.</alertText>
+    <description>To prevent a Contact from being created if a Lead with that email already exists</description>
+    <duplicateRuleFilter xsi:nil="true"/>
+    <duplicateRuleMatchRules>
+        <matchRuleSObjectType>Lead</matchRuleSObjectType>
+        <matchingRule>Lead_Email_Exact_Match</matchingRule>
+        <objectMapping>
+            <inputObject>Contact</inputObject>
+            <mappingFields>
+                <inputField>Email</inputField>
+                <outputField>Email</outputField>
+            </mappingFields>
+            <outputObject>Lead</outputObject>
+        </objectMapping>
+    </duplicateRuleMatchRules>
+    <isActive>true</isActive>
+    <masterLabel>Contact-to-Lead Email Exact</masterLabel>
+    <securityOption>BypassSharingRules</securityOption>
+    <sortOrder>4</sortOrder>
+</DuplicateRule>

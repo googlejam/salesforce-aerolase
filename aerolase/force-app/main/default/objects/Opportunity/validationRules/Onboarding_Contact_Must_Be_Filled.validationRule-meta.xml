@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Onboarding_Contact_Must_Be_Filled</fullName>
+    <active>true</active>
+    <description>Onboarding contact field must be filled in order to mark contract signed complete</description>
+    <errorConditionFormula>AND(
+IsBlank( Onboarding_Contact__c ),
+ISCHANGED(StageName),
+OR(
+ISPICKVAL(StageName, &apos;Contract Signed&apos;),
+ISPICKVAL(StageName, &apos;Deal Funded&apos;),
+ISPICKVAL(StageName, &apos;Closed Won&apos;)
+)
+)</errorConditionFormula>
+    <errorMessage>Please Add Onboarding Contact</errorMessage>
+</ValidationRule>

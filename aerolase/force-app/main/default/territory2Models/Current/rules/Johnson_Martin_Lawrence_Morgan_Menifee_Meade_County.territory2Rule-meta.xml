@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Johnson, Martin, Lawrence, Morgan, Menifee &amp; Meade County</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>41204,41216,41219,41222,41226,41234,41238,41240,41254,41255,41256,41257</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>41260,41263,41265,41268,41271,41274,41203,41214,41224,41231,41250,41262</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>41267,41124,41159,41160,41180,41201,41230,41232,41264</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>41352,41408,41413,41421,41425,41451,41472,41477,40316,40322,40346,40387</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>40104,40108,40117,40142,40155,40157,40161</value>
+    </ruleItems>
+</Territory2Rule>

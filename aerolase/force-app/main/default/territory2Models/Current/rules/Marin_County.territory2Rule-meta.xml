@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+    <name>Marin County</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>94901,94903,94904,94912,94913,94914,94915,94920,94924,94925,94929,94930</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>94933,94937,94938,94939,94940,94941,94942,94945,94946,94947,94948,94949</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>94950,94956,94957,94960,94963,94964,94965,94966,94970,94971,94973,94974</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>94976,94977,94978,94979,94998</value>
+    </ruleItems>
+</Territory2Rule>

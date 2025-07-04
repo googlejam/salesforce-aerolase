@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Bell, Falls, Limestone, Freestone, Anderson,Cherokee,Shelby,Blanco</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>76547,76548,76549,76554,76559,76564,76569,76571,76579,76570,76632,76656</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>76661,76680,76685,76635,76642,76653,76667,76678,76686,76687,75838,75840</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>75848,75859,75860,76693,75763,75779,75801,75802,75803,75832,75839,75853</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>75861,75880,75882,75884,75886,75759,75764,75766,75772,75780,75784,75785</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>75925,75976,75935,75954,75973,75974,75975,78606,78635,78636,78663</value>
+    </ruleItems>
+</Territory2Rule>

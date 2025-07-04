@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1</booleanFilter>
+    <name>Bracebridge Zip Code Group 5</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>P1L 2H1,P1L 2H2,P1L 2H3,P1L 2H5,P1L 2H6,P1L 2H7,P1L 2H8,P1L 2H9</value>
+    </ruleItems>
+</Territory2Rule>

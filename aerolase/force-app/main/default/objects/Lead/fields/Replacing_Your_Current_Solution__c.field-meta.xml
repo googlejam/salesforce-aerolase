@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Replacing_Your_Current_Solution__c</fullName>
+    <label>Replacing Your Current Solution?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Replacing</fullName>
+                <default>false</default>
+                <label>Replacing</label>
+            </value>
+            <value>
+                <fullName>New Service</fullName>
+                <default>false</default>
+                <label>New Service</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

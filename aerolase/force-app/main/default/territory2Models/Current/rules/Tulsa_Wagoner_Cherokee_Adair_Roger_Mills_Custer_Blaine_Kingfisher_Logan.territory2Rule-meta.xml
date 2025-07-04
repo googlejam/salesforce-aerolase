@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Tulsa, Wagoner, Cherokee, Adair, Roger Mills, Custer, Blaine, Kingfisher, Logan</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>74182,74186,74187,74192,74193,74014,74429,74446,74454,74458,74467,74477</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>74427,74441,74444,74451,74452,74464,74465,74471,74457,74931,74960,74964</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>74965,73628,73638,73642,73650,73660,73666,73096,73601,73620,73625,73639</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73669,73040,73043,73724,73744,73755,73763,73770,73772,73016,73734,73742</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73750,73756,73762,73764,73027,73028,73044,73050,73056,73058,73063,73070</value>
+    </ruleItems>
+</Territory2Rule>

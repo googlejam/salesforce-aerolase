@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Canada_Lead_Sharing_Alberta_BC</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Canada Lead Sharing - Alberta &amp; BC</label>
+        <sharedTo>
+            <role>TM_Canada</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+        <criteriaItems>
+            <field>State</field>
+            <operation>contains</operation>
+            <value>Alberta</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>State</field>
+            <operation>contains</operation>
+            <value>AB</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>State</field>
+            <operation>contains</operation>
+            <value>British Colombia</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>State</field>
+            <operation>contains</operation>
+            <value>BC</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Chris_Yackel_NY_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Chris Yackel NY Sharing</label>
+        <sharedTo>
+            <role>DSM_New_York</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>State</field>
+            <operation>contains</operation>
+            <value>New York</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Dans_Assistant</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Dans Assistant</label>
+        <sharedTo>
+            <role>DSM_Assistant</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>equals</operation>
+            <value>0058b00000GcVfQAAV</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Rob_ESI_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Rob ESI Sharing</label>
+        <sharedTo>
+            <role>ASM_Canada</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Second_Lead_Source__c</field>
+            <operation>equals</operation>
+            <value>Esthetic Spa International</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Theresa_Assistant</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Theresa Assistant</label>
+        <sharedTo>
+            <role>DSM_Assistant</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>equals</operation>
+            <value>0058b00000GcUf7AAF</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Tyler_NC_Sharing_Rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Tyler NC Sharing Rule</label>
+        <sharedTo>
+            <role>TM_Southeast</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+        <criteriaItems>
+            <field>State</field>
+            <operation>contains</operation>
+            <value>NC</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>State</field>
+            <operation>contains</operation>
+            <value>North Carolina</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>State</field>
+            <operation>contains</operation>
+            <value>SC</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>State</field>
+            <operation>contains</operation>
+            <value>South Carolina</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Yudelky_All_Practinoer_Access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Yudelky - All Practinoer Access</label>
+        <sharedTo>
+            <role>DSM_National</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Are_You__c</field>
+            <operation>equals</operation>
+            <value>Practitioner</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Yudelky_Derm_Permission</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Yudelky Derm Permission</label>
+        <sharedTo>
+            <role>DSM_National</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Specialty__c</field>
+            <operation>equals</operation>
+            <value>Dermatology</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Devante_Yudelky_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Devante - Yudelky Sharing</label>
+        <sharedTo>
+            <role>TM_Maryland</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>DSM_National</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Edwena_Emily_Texas</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Edwena/Emily - Texas</label>
+        <sharedTo>
+            <role>TM_Central_Edwena</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Sr_ASM_Central_Emily_Talbot</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Edwena_Mike_Texas</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Edwena/Mike - Texas</label>
+        <sharedTo>
+            <role>TM_Central_Edwena</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>ASM_Central_Mike_Reddell</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Edwena_Shared_with_Mike</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Edwena Shared with Mike</label>
+        <sharedTo>
+            <role>ASM_Central_Mike_Reddell</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>TM_Central_Edwena</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Lynn_Will_Lead_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Lynn/Will - Lead Sharing</label>
+        <sharedTo>
+            <role>TM_Minnesota</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>ASM_Central_Will_Schau</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Mallory_Nate_Leads</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Mallory - Nate Leads</label>
+        <sharedTo>
+            <role>TM_Canada</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>DSM_Canada</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Mallory_Saif_Leads</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Mallory - Saif Leads</label>
+        <sharedTo>
+            <role>TM_Canada</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Regional_Sales_Manager_Canada</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>National_DM_Assistant</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>National -DM - Assistant</label>
+        <sharedTo>
+            <role>DSM_Assistant</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>DSM_National</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Pacific_NW_Ashley_Bree</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Pacific NW - Ashley/Bree</label>
+        <sharedTo>
+            <role>TM_Pacific_NorthWest_Northern_Cali</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>ASM_Pacific_NW_Bree_Alexander</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Pacific_NW_Kris_Kendall</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Pacific NW - Kris/Kendall</label>
+        <sharedTo>
+            <role>TM_Pacific_Northwest_Washington</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>ASM_Pacific_NW_Kris_Latimer</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Rick_Yudelky_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sharing access all leads in Rick&apos;s ownership with Yudelky</description>
+        <label>Rick &amp; Yudelky Sharing</label>
+        <sharedTo>
+            <role>DSM_National</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>National_Accounts</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>See_All_Leads</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>See All Leads</label>
+        <sharedTo>
+            <group>Executive</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>COO</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Southeast_Peter_Ryan</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Southeast - Peter/Ryan</label>
+        <sharedTo>
+            <role>TM_Southeast_Ryan</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>ASM_Southeast_Peter</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Southeast_Steve_Jose</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Southeast - Steve/Jose</label>
+        <sharedTo>
+            <role>TM_Southeast_Jose</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>ASM_Southeast_Steve</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Theresa_Dan</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Theresa/Dan</label>
+        <sharedTo>
+            <group>Theresa_Dan</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Theresa_Dan</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Yackel_Shaw_Sharing_Leads</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Yackel / Shaw Sharing Leads</label>
+        <sharedTo>
+            <role>TM_New_York_Metro_Area</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>DSM_New_York</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Yudelky_Assitant</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Yudelky Assitant</label>
+        <sharedTo>
+            <role>DSM_Assistant</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>DSM_East</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Contact$Name</field>
+    </columns>
+    <columns>
+        <field>Contact$Owner</field>
+    </columns>
+    <columns>
+        <field>Contact$Lifecycle_Stage__c</field>
+    </columns>
+    <columns>
+        <field>Contact$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Contact$LeadSource</field>
+    </columns>
+    <description>All Contacts created in 2023 sorted by last activity date</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <field>Contact$LastActivityDate</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>2023 Contacts Last Activity</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Contacts__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Contact$CreatedDate</dateColumn>
+        <endDate>2023-12-31</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2023-01-01</startDate>
+    </timeFrameFilter>
+</Report>

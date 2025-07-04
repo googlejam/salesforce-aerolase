@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Leads_Created_Goal__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( TEXT(Sales_Team__c),
+&quot;Central&quot;, 25 * 5,
+&quot;Organization&quot;, 25 * 30,
+&quot;Southeast&quot;, 25 * 6,
+&quot;NY&quot;, 25  * 3,
+&quot;West&quot;, 25 * 4,
+&quot;National&quot;, 25 * 2,
+&quot;East&quot;, 25 * 6,
+0
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Monthly Leads Created Goal</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

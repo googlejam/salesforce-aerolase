@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2 xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accountAccessLevel>Edit</accountAccessLevel>
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <name>Territory #1 - North OK - Danny Carson</name>
+    <objectAccessLevels>
+        <accessLevel>Transfer</accessLevel>
+        <objectType>Lead</objectType>
+    </objectAccessLevels>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentTerritory>Oklahoma</parentTerritory>
+    <ruleAssociations>
+        <inherited>true</inherited>
+        <ruleName>Cimarron_Texas_Beaver_Harper_Woods_Alfalfa_Grant_Kay_Osage_Washington</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>true</inherited>
+        <ruleName>Garfield_Noble_Pawnee_Rogers_Mayes_Delaware_Dewey_Payne</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>true</inherited>
+        <ruleName>Lincoln_Creek_Okmulgee_Muskogee</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>true</inherited>
+        <ruleName>Payne_Tulsa</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>true</inherited>
+        <ruleName>Tulsa_Wagoner_Cherokee_Adair_Roger_Mills_Custer_Blaine_Kingfisher_Logan</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>true</inherited>
+        <ruleName>Washington_Nowata_Craig_Ottawa_Ellis_Woodward_Major_Garfield</ruleName>
+    </ruleAssociations>
+    <territory2Type>Geography</territory2Type>
+</Territory2>

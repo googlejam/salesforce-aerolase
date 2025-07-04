@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+    <name>Lincoln, Creek, Okmulgee, Muskogee</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>74026,74079,74824,74832,74834,74855,74864,74869,74875,74881,74010,74028</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>74030,74039,74041,74044,74046,74047,74052,74066,74067,74068,74071,74131</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>74421,74431,74437,74445,74447,74456,74460,74401,74402,74403,74422,74423</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>74428,74434,74436,74439,74450,74455,74463,74468,74469,74470</value>
+    </ruleItems>
+</Territory2Rule>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Newton, Orange, Hardin, Jefferson, Liberty, Montgomery</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>75928,75932,75933,75966,75977,77614,77611,77626,77630,77631,77632,77639</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77662,77670,77374,77376,77519,77585,77625,77656,77657,77659,77663,77613</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77619,77622,77627,77629,77640,77641,77642,77643,77651,77655,77701,77702</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77703,77704,77705,77706,77707,77708,77710,77713,77720,77725,77726,77327</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77328,77368,77369,77533,77535,77538,77561,77564,77575,77582,77301,77302</value>
+    </ruleItems>
+</Territory2Rule>

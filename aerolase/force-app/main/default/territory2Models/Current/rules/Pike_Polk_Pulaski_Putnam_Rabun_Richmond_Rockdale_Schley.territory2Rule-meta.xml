@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3</booleanFilter>
+    <name>Pike, Polk, Pulaski, Putnam, Rabun, Richmond, Rockdale, Schley, Screven,Spalding</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>30206,30256,30258,30292,30295,30104,30125,30153,31036,31024,31026,30525</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>30537,30552,30568,30576,30805,30815,30901,30904,30905,30906,30909,30912</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>30999,30012,30013,30094,31806,30446,30455,30467,30223,30224</value>
+    </ruleItems>
+</Territory2Rule>

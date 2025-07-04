@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PrimaryAccountOwnerFilter__c</fullName>
+    <formula>IF($User.Id = OwnerId, TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>IsPrimaryOwner</label>
+    <type>Checkbox</type>
+</CustomField>

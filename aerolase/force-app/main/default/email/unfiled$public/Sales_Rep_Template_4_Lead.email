@@ -1,0 +1,12 @@
+Hi {!Lead.FirstName},
+
+I’m {!Lead.OwnerFullName} from Aerolase, and I wanted to share a recent success story that highlights the impact of our [Product Name].
+
+At [Client/Institution], we implemented our device, resulting in [specific results, e.g., 30% faster recovery times, improved patient satisfaction scores, etc.].
+
+I believe your practice could see similar benefits. Would you be interested in a brief call to discuss this further?
+
+Looking forward to your response!
+
+Best,
+{!Lead.OwnerFullName}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Nacogdoches, Kimble, Gillespie, Travis</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>75760,75788,75937,75943,75944,75946,75958,75961,75962,75963,75964,75965</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>75978,76849,76854,76874,78618,78624,78631,78671,78675,73301,73344,78617</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78645,78651,78652,78653,78660,78669,78691,78701,78702,78703,78704,78705</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78708,78709,78710,78711,78712,78713,78714,78715,78716,78718,78719,78720</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78721,78722,78723,78724,78725,78726,78727,78728,78730,78731,78732,78733</value>
+    </ruleItems>
+</Territory2Rule>

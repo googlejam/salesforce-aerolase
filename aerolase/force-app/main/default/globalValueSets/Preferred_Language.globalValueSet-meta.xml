@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Spanish</fullName>
+        <default>false</default>
+        <label>Spanish</label>
+    </customValue>
+    <customValue>
+        <fullName>French</fullName>
+        <default>false</default>
+        <label>French</label>
+    </customValue>
+    <description>Please select the language the client is most comfortable doing their onboarding in</description>
+    <masterLabel>Preferred Language</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

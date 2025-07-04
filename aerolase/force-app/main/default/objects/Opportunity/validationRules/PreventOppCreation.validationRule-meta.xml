@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PreventOppCreation</fullName>
+    <active>false</active>
+    <description>Any Opportunities that are not from Lead conversion are required to have an Account and a primary Contact.</description>
+    <errorConditionFormula>AND(
+ISNEW(),
+FromLead__c = False,
+OR(
+ISBLANK(AccountId),
+ISBLANK(Primary_Contact__c))
+)</errorConditionFormula>
+    <errorMessage>Account and Contact is required to create an Opportunity</errorMessage>
+</ValidationRule>

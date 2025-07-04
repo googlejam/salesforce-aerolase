@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Harris County #3</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77227,77228,77229,77230,77231,77233,77234,77235,77236,77237,77238,77240</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77241,77242,77243,77244,77245,77248,77249,77251,77252,77253,77254,77255</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77256,77257,77258,77259,77261,77262,77263,77265,77266,77267,77268,77269</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77270,77271,77272,77273,77274,77275,77277,77279,77280,77282,77284,77287</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77288,77289,77290,77291,77292,77293,77297,77299,77315,77325,77336,77237</value>
+    </ruleItems>
+</Territory2Rule>

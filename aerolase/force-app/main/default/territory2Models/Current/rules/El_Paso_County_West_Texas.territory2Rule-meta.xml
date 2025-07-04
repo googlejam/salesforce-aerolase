@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>El Paso County</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>79821,79835,79836,79838,79849,79853,79901,79902,79903,79904,79905,79906</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>79907,79908,79910,79911,79912,79913,79914,79915,79916,79917,79918,79920</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>79922,79923,79924,79925,79926,79927,79928,79929,79930,79931,79932,79934</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>79935,79936,79937,79938,79940,79941,79942,79943,79944,79945,79946,79947</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>79948,79949,79950,79951,79952,79953,79954,79955,79958,79960,79961,79968</value>
+    </ruleItems>
+</Territory2Rule>

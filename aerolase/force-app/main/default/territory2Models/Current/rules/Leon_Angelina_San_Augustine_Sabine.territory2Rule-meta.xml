@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Leon, Angelina, San Augustine, Sabine,Edwards, Real, Kerr,Kendall, Hays, Bastrop</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>75831,75833,75846,75850,75855,77850,77855,77865,77871,76883,78828,78880</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>75901,75902,75903,75904,75915,75941,75949,75969,75980,75929,75972,75930</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>75948,75959,75968,78833,78873,78879,78010,78024,78025,78028,78029,78058</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78004,78006,78013,78015,78027,78074,78610,78619,78620,78640,78666,78667</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78676,78737,78602,78612,78621,78650,78659,78662,78953,78957</value>
+    </ruleItems>
+</Territory2Rule>

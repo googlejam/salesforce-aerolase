@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LeadUrl__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;https://aerolase.lightning.force.com/lightning/r/Lead/Id/view&quot;, &quot;FirstName&quot;, &quot;blank&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>LeadUrl</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

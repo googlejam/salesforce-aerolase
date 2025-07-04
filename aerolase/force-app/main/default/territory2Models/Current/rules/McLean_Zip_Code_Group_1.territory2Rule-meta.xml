@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>McLean Zip Code Group 1</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>61701,61702,61704,61705,61709,61710,61720,61722,61724,61725,61726,61728</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>61730,61731,61732,61736,61737,61744,61745,61748,61752,61753,61754,61758</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>61761,61770,61772,61774,61776,61790,61791,61799</value>
+    </ruleItems>
+</Territory2Rule>

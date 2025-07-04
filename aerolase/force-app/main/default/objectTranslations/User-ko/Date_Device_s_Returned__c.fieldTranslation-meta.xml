@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Date Device(s) Returned --></label>
+    <name>Date_Device_s_Returned__c</name>
+</CustomFieldTranslation>

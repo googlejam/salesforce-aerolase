@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>Peterborough Zip Code Group 6</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K9H 2K1,K9H 2K2,K9H 2K3,K9H 2K4,K9H 2K5,K9H 2K6,K9H 2K7,K9H 2K8,K9H 2L1,K9H 2L2,K9H 2L3,K9H 2L4</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K9H 2L5,K9H 2L6,K9H 2L7,K9H 2L8,K9H 2L9,K9H 2M1,K9H 2M2,K9H 2M3,K9H 2M4,K9H 2M5,K9H 2M6,K9H 2M7</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K9H 2M8,K9H 2M9,K9H 2N1,K9H 2N2,K9H 2N3,K9H 2N4,K9H 2N5,K9H 2N6,K9H 2N7,K9H 2N8,K9H 2N9,K9H 2P1</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K9H 2P2,K9H 2P3,K9H 2P4,K9H 2P5,K9H 2P6,K9H 2P7,K9H 2P8,K9H 2P9,K9H 2R1,K9H 2R2,K9H 2R3,K9H 2R4</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K9H 2R5,K9H 2R6,K9H 2R7,K9H 2R8,K9H 2R9,K9H 2S1,K9H 2S2,K9H 2S3,K9H 2S4,K9H 2S5,K9H 2S6,K9H 2S7</value>
+    </ruleItems>
+</Territory2Rule>

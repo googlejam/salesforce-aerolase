@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2 xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accountAccessLevel>Edit</accountAccessLevel>
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <name>Territory #2 - South OK - Eddie Puisis</name>
+    <objectAccessLevels>
+        <accessLevel>Transfer</accessLevel>
+        <objectType>Lead</objectType>
+    </objectAccessLevels>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentTerritory>Oklahoma</parentTerritory>
+    <ruleAssociations>
+        <inherited>true</inherited>
+        <ruleName>Beckman_Washita_Caddo_Grady_McClain_Cleveland_Pottawatomie</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>true</inherited>
+        <ruleName>Canadian_Oklahoma</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>true</inherited>
+        <ruleName>Coal_Atoka_Bryan_Choctaw_Pushmataha_McCurtain</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>true</inherited>
+        <ruleName>Greer_Kiowa_Jackson_Harmon_Tillman_Comanche_Cotton_Stephens</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>true</inherited>
+        <ruleName>Oklahoma_Okfuskee_McIntosh_Haskell_Sequoyah_Beckman</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>true</inherited>
+        <ruleName>Pottawatomie_Seminole_Hughes_Pittsburg_Latimer_Le_Flore</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>true</inherited>
+        <ruleName>Stephens_Jefferson_Garvin_Murray_Carter_Love_Marshall_Johnston_Pontotoc</ruleName>
+    </ruleAssociations>
+    <territory2Type>Geography</territory2Type>
+</Territory2>

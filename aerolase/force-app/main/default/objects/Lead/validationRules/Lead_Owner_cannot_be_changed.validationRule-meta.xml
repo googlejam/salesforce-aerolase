@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Owner_cannot_be_changed</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISCHANGED( OwnerId ) 
+&amp;&amp;  !($UserRole.Name = &quot;ASD - Central&quot;) 
+&amp;&amp;  !($UserRole.Name = &quot;ASD - Southeast&quot;)
+&amp;&amp;  !($UserRole.Name = &quot;ASD - West&quot;)
+&amp;&amp;  !($UserRole.Name = &quot;ASM - Marketing&quot;)
+&amp;&amp;  !($UserRole.Name = &quot;COO&quot;)
+&amp;&amp;  !($UserRole.Name = &quot;Customer Success&quot;)
+&amp;&amp;  !($UserRole.Name = &quot;DSM - New York&quot;)
+&amp;&amp;  !($UserRole.Name = &quot;Executive - EMEA&quot;)
+&amp;&amp;  !($UserRole.Name = &quot;Marketing&quot;)
+&amp;&amp;  !($UserRole.Name = &quot;SR. ASD - East&quot;)
+&amp;&amp;  !($UserRole.Name = &quot;VP of Sales&quot;)</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>You don&apos;t have access to change the Lead Owner</errorMessage>
+</ValidationRule>

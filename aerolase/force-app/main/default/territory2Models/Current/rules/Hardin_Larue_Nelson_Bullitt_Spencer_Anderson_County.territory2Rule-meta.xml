@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+    <name>Hardin, Larue, Nelson, Bullitt, Spencer &amp; Anderson County</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>40121,40122,40159,40160,40162,40175,40177,42701,42702,42724,42732,42740</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>42776,42784,42788,42716,42748,42757,42764</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>40004,40008,40012,40013,40020,40048,40051,40052,40107</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>40047,40109,40110,40129,40150,40165,40166,40046,40071,40342</value>
+    </ruleItems>
+</Territory2Rule>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>Fulton Zip Code Group 1</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>61415,61427,61431,61432,61433,61441,61459,61477,61482,61484,61501,61519</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>61520,61524,61531,61542,61543,61544,61553,61563</value>
+    </ruleItems>
+</Territory2Rule>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Add_Ons__c</fullName>
+    <label>Add Ons</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>1 Year FriendMedia</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1 Year FriendMedia</label>
+            </value>
+            <value>
+                <fullName>Additional 1 year Warranty</fullName>
+                <default>false</default>
+                <label>Additional 1 year Warranty</label>
+            </value>
+            <value>
+                <fullName>Additional 2 year warranty</fullName>
+                <default>false</default>
+                <label>Additional 2 year warranty</label>
+            </value>
+            <value>
+                <fullName>Additional 3 year warranty</fullName>
+                <default>false</default>
+                <label>Additional 3 year warranty</label>
+            </value>
+            <value>
+                <fullName>Additional Free Trainings</fullName>
+                <default>false</default>
+                <label>Additional Free Trainings</label>
+            </value>
+            <value>
+                <fullName>Additional Social Media Ad Dollars</fullName>
+                <default>false</default>
+                <label>Additional Social Media Ad Dollars</label>
+            </value>
+            <value>
+                <fullName>Empire Medical Discount</fullName>
+                <default>false</default>
+                <label>Empire Medical Discount</label>
+            </value>
+            <value>
+                <fullName>Exfluential VIP Program</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Exfluential VIP Program</label>
+            </value>
+            <value>
+                <fullName>Extra Filters</fullName>
+                <default>false</default>
+                <label>Extra Filters</label>
+            </value>
+            <value>
+                <fullName>Extra Patient Goggles</fullName>
+                <default>false</default>
+                <label>Extra Patient Goggles</label>
+            </value>
+            <value>
+                <fullName>Extra Practitioner Goggles</fullName>
+                <default>false</default>
+                <label>Extra Practitioner Goggles</label>
+            </value>
+            <value>
+                <fullName>Marketing Dollars</fullName>
+                <default>false</default>
+                <label>Marketing Dollars</label>
+            </value>
+            <value>
+                <fullName>New Mark Media Package</fullName>
+                <default>false</default>
+                <label>New Mark Media Package</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>One Preventative Maintenance</fullName>
+                <default>false</default>
+                <label>One Preventative Maintenance</label>
+            </value>
+            <value>
+                <fullName>Preventative Maintenance Per Year Warranty</fullName>
+                <default>false</default>
+                <label>Preventative Maintenance Per Year Warranty</label>
+            </value>
+            <value>
+                <fullName>Rebate Check</fullName>
+                <default>false</default>
+                <label>Rebate Check</label>
+            </value>
+            <value>
+                <fullName>Referral Fee Per Device Placed</fullName>
+                <default>false</default>
+                <label>Referral Fee Per Device Placed</label>
+            </value>
+            <value>
+                <fullName>Social Media Package - 3 months</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Social Media Package - 3 months</label>
+            </value>
+            <value>
+                <fullName>Social Media Package - 6 months</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Social Media Package - 6 months</label>
+            </value>
+            <value>
+                <fullName>VIP Loaner Program</fullName>
+                <default>false</default>
+                <label>VIP Loaner Program</label>
+            </value>
+            <value>
+                <fullName>VIP Warranty Program</fullName>
+                <default>false</default>
+                <label>VIP Warranty Program</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

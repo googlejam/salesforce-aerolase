@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Harris, Galveston, Brazoria, Fort Bend</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77520,77521,77522,77530,77532,77536,77547,77562,77571,77572,77586,77587</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77598,77510,77517,77518,77539,77546,77549,77550,77551,77552,77553,77554</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77555,77563,77565,77568,77573,77574,77590,77591,77592,77617,77623,77650</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77422,77430,77431,77463,77480,77486,77511,77512,77515,77516,77531,77534</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77541,77542,77566,77577,77578,77581,77583,77584,77588,77053,77406,77407</value>
+    </ruleItems>
+</Territory2Rule>

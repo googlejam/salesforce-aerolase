@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Device_Owned__c</fullName>
+    <label>Device Owned</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Neo Elite</fullName>
+                <default>false</default>
+                <label>Neo Elite</label>
+            </value>
+            <value>
+                <fullName>Era Elite</fullName>
+                <default>false</default>
+                <label>Era Elite</label>
+            </value>
+            <value>
+                <fullName>Reverse by Aerolase</fullName>
+                <default>false</default>
+                <label>Reverse by Aerolase</label>
+            </value>
+            <value>
+                <fullName>Exci308</fullName>
+                <default>false</default>
+                <label>Exci308</label>
+            </value>
+            <value>
+                <fullName>Neo V</fullName>
+                <default>false</default>
+                <label>Neo V</label>
+            </value>
+            <value>
+                <fullName>Neo Derm</fullName>
+                <default>false</default>
+                <label>Neo Derm</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

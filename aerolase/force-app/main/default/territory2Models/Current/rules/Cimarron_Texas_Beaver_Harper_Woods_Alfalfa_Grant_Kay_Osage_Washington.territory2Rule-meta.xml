@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Cimarron, Texas, Beaver, Harper, Woods, Alfalfa, Grant, Kay, Osage, Washington</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73933,73937,73946,73947,73901,73939,73942,73944,73945,73949,73951,73844</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73931,73932,73938,73950,73834,73848,73851,73855,73717,73731,73746,73842</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73860,73716,73719,73722,73726,73728,73739,73741,73749,73758,73759,73761</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73766,73771,74636,74643,74601,74602,74604,74631,74632,74641,74646,74647</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>74653,74001,74002,74035,74054,74056,74060,74084,74633,74637,74652,74003</value>
+    </ruleItems>
+</Territory2Rule>

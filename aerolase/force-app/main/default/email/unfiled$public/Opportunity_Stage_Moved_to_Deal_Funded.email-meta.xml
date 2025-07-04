@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Opportunity Stage Moved to Deal Funded</name>
+    <style>none</style>
+    <subject>{!Opportunity.Name} - {!Opportunity.Account} - {!Opportunity.Primary_Contact__c} - {!Opportunity.CreatedBy} - {!Opportunity.CreatedDate} moved to Deal Funded</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

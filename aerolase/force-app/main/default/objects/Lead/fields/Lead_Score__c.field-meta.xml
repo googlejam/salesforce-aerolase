@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+OR(
+Text(LeadSource) = &quot;Website&quot;, text(LeadSource) = &quot;Tradeshow&quot;, text(LeadSource) = &quot;Advertisement&quot;, text(LeadSource) = &quot;Email&quot;, text(LeadSource) = &quot;Event&quot;, text(LeadSource) = &quot;Referral&quot;, text(LeadSource) = &quot;Social Media&quot;, text(LeadSource) = &quot;Webinar - Schedule a Demo&quot;),
+&quot;Hot&quot;,
+IF(
+OR(
+Text(LeadSource) = &quot;Call-in&quot;, text(LeadSource) = &quot;Chat Box&quot;, text(LeadSource) = &quot;Empire Medical Training&quot;, text(LeadSource) = &quot;Linked In&quot;, text(LeadSource) = &quot;Partner&quot;, text(LeadSource) = &quot;Popl&quot;, text(LeadSource) = &quot;PR&quot;, text(LeadSource) = &quot;Sponsored Content&quot;, text(LeadSource) = &quot;Training School&quot;, text(LeadSource) = &quot;Sales rep&quot;, text(LeadSource) = &quot;Webinar - General&quot;),
+&quot;Warm&quot;, &quot;Cold&quot;
+))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Lead Score</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

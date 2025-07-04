@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Devices Rep Has: --></label>
+    <name>Devices_Rep_Has__c</name>
+    <picklistValues>
+        <masterLabel>HP Laptop</masterLabel>
+        <translation><!-- HP Laptop --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HP Tablet</masterLabel>
+        <translation><!-- HP Tablet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MacBook</masterLabel>
+        <translation><!-- MacBook --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>iPad</masterLabel>
+        <translation><!-- iPad --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

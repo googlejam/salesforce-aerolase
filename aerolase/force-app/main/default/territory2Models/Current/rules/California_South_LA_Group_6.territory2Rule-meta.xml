@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>California - South LA - Group 6</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>90248,90749,90731,90061,90003,90015,90748,90744,90745,90011,90747,90746</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>90822,90071,90014,90099,90001,90189,90002,90059,90030,90050,90051,90052</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>90053,90054,90055,90060,90072,90074,90075,90076,90078,90080,90081,90082</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>90083,90086,90087,90088,90093,90009,90013,90220,90079,90012,90021,90222</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>90810,90223,90224,90895,90031,90802,90255,90058,90033,90096,90813,90262</value>
+    </ruleItems>
+</Territory2Rule>

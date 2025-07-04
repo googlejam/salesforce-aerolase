@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Perth Zip Code Group 5</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7H 2J9,K7H 2K1,K7H 2K2,K7H 2K3,K7H 2K4,K7H 2K5,K7H 2K6,K7H 2K7,K7H 2K8,K7H 2K9,K7H 2L1,K7H 2L2</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7H 2L3,K7H 2L4,K7H 2L5,K7H 2L6,K7H 2L7,K7H 2L8,K7H 2L9,K7H 2M1,K7H 2M2,K7H 2M3,K7H 2M4,K7H 2M5</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7H 2M7,K7H 2M8,K7H 2M9,K7H 2N1,K7H 2N2,K7H 2N3,K7H 2N4,K7H 2N5,K7H 2N6,K7H 2N7,K7H 2N8,K7H 2N9</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7H 2P1,K7H 2P2,K7H 2P3,K7H 2P4,K7H 2P5,K7H 2P6,K7H 2P7,K7H 2P8,K7H 2P9,K7H 2R1,K7H 2R2,K7H 2R3</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7H 2R4,K7H 2R5,K7H 2R6,K7H 2R7,K7H 2R8,K7H 2R9,K7H 2S1,K7H 2S2,K7H 2S3,K7H 2S4,K7H 2S5,K7H 2S6</value>
+    </ruleItems>
+</Territory2Rule>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contacts_in_HubSpot</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>HubSpot_Latest_Form_Submission_Type__c</columns>
+    <columns>HubSpot_Latest_Source_Date__c</columns>
+    <columns>HubSpot_Recent_Conversion__c</columns>
+    <columns>HubSpot_Recent_Conversion_Date__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>HubSpot_ID__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Contacts in HubSpot</label>
+</ListView>

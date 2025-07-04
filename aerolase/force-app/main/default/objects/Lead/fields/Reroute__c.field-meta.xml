@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reroute__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used in Territory Routing flow. If Reroute = True, allow Aerolase to reroute the lead to a user without triggering the flow.</description>
+    <label>Reroute</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

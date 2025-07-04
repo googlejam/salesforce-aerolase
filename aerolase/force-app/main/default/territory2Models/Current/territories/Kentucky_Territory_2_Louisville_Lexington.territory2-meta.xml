@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2 xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accountAccessLevel>Edit</accountAccessLevel>
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <name>Kentucky - Territory #2 - Louisville/Lexington - NWeisend</name>
+    <objectAccessLevels>
+        <accessLevel>Transfer</accessLevel>
+        <objectType>Lead</objectType>
+    </objectAccessLevels>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentTerritory>Kentucky</parentTerritory>
+    <ruleAssociations>
+        <inherited>false</inherited>
+        <ruleName>Bourbon_Clark_Montgomery_Bath_Nicholas_Roberston_Bracken_Mason_County</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>false</inherited>
+        <ruleName>Fleming_Rowan_Elliott_Carter_Lewis_Greenup_Boyd_County</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>false</inherited>
+        <ruleName>Gallatin_Grant_Boone_Kenton_Campbell_Pendleton_Harrison_County</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>false</inherited>
+        <ruleName>Hardin_Larue_Nelson_Bullitt_Spencer_Anderson_County</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>false</inherited>
+        <ruleName>Jefferson</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>false</inherited>
+        <ruleName>Jefferson_Shelby_Oldham_Trimble_Henry_Franklin_County</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>false</inherited>
+        <ruleName>Woodford_Jessamine_Fayette_County</ruleName>
+    </ruleAssociations>
+    <territory2Type>Geography</territory2Type>
+</Territory2>

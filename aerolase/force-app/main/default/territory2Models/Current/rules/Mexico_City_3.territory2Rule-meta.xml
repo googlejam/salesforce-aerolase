@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+    <name>Mexico City #3</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingCity</field>
+        <operation>equals</operation>
+        <value>Ciudud de Mexico</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingCity</field>
+        <operation>equals</operation>
+        <value>Mexico City</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.ShippingCity</field>
+        <operation>equals</operation>
+        <value>Ciudud de Mexico</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.ShippingCity</field>
+        <operation>equals</operation>
+        <value>Mexico City</value>
+    </ruleItems>
+</Territory2Rule>

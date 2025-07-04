@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Email_Alert_For_New_Lead_Assigned</fullName>
+        <description>Email Alert For New Lead Assigned</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>drivera@aerolase.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Aerolase_Lead_Owner</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_for_Leads</fullName>
+        <description>Email Alert for Leads</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/LeadsNewassignmentnotificationSAMPLE</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_on_Status_Unchanged_from_48_hours</fullName>
+        <description>Email Alert on Status Unchanged from 48 hours</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>unfiled$public/Lead_Status_Unchanged_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_to_New_Lead_Owner</fullName>
+        <ccEmails>drivera@aerolase.com</ccEmails>
+        <ccEmails>jmilano@aerolase.com</ccEmails>
+        <description>Email Alert to New Lead Owner</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>drivera@aerolase.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/LeadsNewassignmentnotificationSAMPLE</template>
+    </alerts>
+    <alerts>
+        <fullName>LEAD_HubSpot_Form_Submission</fullName>
+        <description>LEAD: HubSpot Form Submission</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>drivera@aerolase.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/HubSpot_Form_Submission</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Assignment_Alert_for_Lead_Owner_and_Manager</fullName>
+        <description>Lead Assignment Alert for Lead Owner and Manager</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <field>Lead_Owner_Manager__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>drivera@aerolase.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Lead_Assignment_Notification_Owner_Manager</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Bump_Lead</fullName>
+        <field>Bump_Date_Time__c</field>
+        <formula>$System.OriginDateTime</formula>
+        <name>Bump Lead</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Do_Not_Auto_Assign_True</fullName>
+        <field>Do_Not_Auto_Assign__c</field>
+        <literalValue>1</literalValue>
+        <name>Do Not Auto Assign = True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

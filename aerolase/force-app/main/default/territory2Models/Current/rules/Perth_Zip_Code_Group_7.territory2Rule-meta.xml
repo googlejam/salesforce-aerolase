@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>Perth Zip Code Group 7</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7H 3A6,K7H 3A7,K7H 3A8,K7H 3A9,K7H 3B1,K7H 3B2,K7H 3B3,K7H 3B4,K7H 3B5,K7H 3B6,K7H 3B7,K7H 3B8</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7H 3B9,K7H 3C1,K7H 3C2,K7H 3C3,K7H 3C5,K7H 3C6,K7H 3C7,K7H 3C8,K7H 3C9,K7H 3E1,K7H 3E2,K7H 3E3</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7H 3E4,K7H 3E5,K7H 3E7,K7H 3E9,K7H 3G1,K7H 3G2,K7H 3G3,K7H 3G4,K7H 3G5,K7H 3G6,K7H 3G7,K7H 3G8</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7H 3G9,K7H 3H1,K7H 3H2,K7H 3H3,K7H 3H4,K7H 3H5</value>
+    </ruleItems>
+</Territory2Rule>

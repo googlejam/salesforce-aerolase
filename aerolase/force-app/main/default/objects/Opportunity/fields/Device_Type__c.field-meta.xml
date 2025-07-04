@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Device_Type__c</fullName>
+    <label>Device Type for Marketing Materials</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Era (refurfished)</fullName>
+                <default>false</default>
+                <label>Era (refurfished)</label>
+            </value>
+            <value>
+                <fullName>Era (standard)</fullName>
+                <default>false</default>
+                <label>Era (standard)</label>
+            </value>
+            <value>
+                <fullName>Era Elite</fullName>
+                <default>false</default>
+                <label>Era Elite</label>
+            </value>
+            <value>
+                <fullName>Era Elite (refurbished)</fullName>
+                <default>false</default>
+                <label>Era Elite (refurbished)</label>
+            </value>
+            <value>
+                <fullName>Exci308</fullName>
+                <default>false</default>
+                <label>Exci308</label>
+            </value>
+            <value>
+                <fullName>Neo (refurbished)</fullName>
+                <default>false</default>
+                <label>Neo (refurbished)</label>
+            </value>
+            <value>
+                <fullName>Neo (standard)</fullName>
+                <default>false</default>
+                <label>Neo (standard)</label>
+            </value>
+            <value>
+                <fullName>NeoDerm</fullName>
+                <default>false</default>
+                <label>NeoDerm</label>
+            </value>
+            <value>
+                <fullName>NeoDerm (Bundle with Era Elite)</fullName>
+                <default>false</default>
+                <label>NeoDerm (Bundle with Era Elite)</label>
+            </value>
+            <value>
+                <fullName>NeoDerm (Bundle with Exci308)</fullName>
+                <default>false</default>
+                <label>NeoDerm (Bundle with Exci308)</label>
+            </value>
+            <value>
+                <fullName>Neo Elite</fullName>
+                <default>false</default>
+                <label>Neo Elite</label>
+            </value>
+            <value>
+                <fullName>Neo Elite, Era Elite, Exci308</fullName>
+                <default>false</default>
+                <label>Neo Elite, Era Elite, Exci308</label>
+            </value>
+            <value>
+                <fullName>Neo Elite (refurbished)</fullName>
+                <default>false</default>
+                <label>Neo Elite (refurbished)</label>
+            </value>
+            <value>
+                <fullName>Neo Elite &amp; Exci308 Bundle</fullName>
+                <default>false</default>
+                <label>Neo Elite &amp; Exci308 Bundle</label>
+            </value>
+            <value>
+                <fullName>Neo Elite and Era Elite</fullName>
+                <default>false</default>
+                <label>Neo Elite and Era Elite (Reverse)</label>
+            </value>
+            <value>
+                <fullName>Neo Standard and Era Standard</fullName>
+                <default>false</default>
+                <label>Neo Standard and Era Standard</label>
+            </value>
+            <value>
+                <fullName>Neo V</fullName>
+                <default>false</default>
+                <label>Neo V</label>
+            </value>
+            <value>
+                <fullName>Neo (Demo)</fullName>
+                <default>false</default>
+                <label>Neo (Demo)</label>
+            </value>
+            <value>
+                <fullName>Era (Demo)</fullName>
+                <default>false</default>
+                <label>Era (Demo)</label>
+            </value>
+            <value>
+                <fullName>Exci308 (Demo)</fullName>
+                <default>false</default>
+                <label>Exci308 (Demo)</label>
+            </value>
+            <value>
+                <fullName>Era &amp; Exci Bundle</fullName>
+                <default>false</default>
+                <label>Era &amp; Exci Bundle</label>
+            </value>
+            <value>
+                <fullName>Neo Derm &amp; Era Elite Bundle</fullName>
+                <default>false</default>
+                <label>Neo Derm &amp; Era Elite Bundle</label>
+            </value>
+            <value>
+                <fullName>Era Focus</fullName>
+                <default>false</default>
+                <label>Era Focus</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

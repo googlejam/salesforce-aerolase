@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Acne Awareness Month - 6/2/2024 - Leads</name>
+    <style>none</style>
+    <subject>🩺‼️Discover the power of the Neo Elite Laser in treating acne - two exclusive clinical events!</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

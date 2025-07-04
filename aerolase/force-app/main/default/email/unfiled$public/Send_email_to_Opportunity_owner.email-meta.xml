@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Aerolase_Internal</letterhead>
+    <name>Send email to Opportunity owner</name>
+    <style>freeForm</style>
+    <subject>Opportunity needs attention</subject>
+    <textOnly>Hey {!Opportunity.OwnerFullName},
+
+This opportunity is being in the stage &quot;{!Opportunity.StageName}&quot; for 15 days - &quot;{!Opportunity.Name}&quot;
+
+Here is the link to the Opportunity - {!Opportunity.Link}
+
+Kindly update the stage of the Opportunity if required.
+
+Thanks,
+Aerolase</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ActionCadenceTracker$Target</field>
+    </columns>
+    <columns>
+        <field>ActionCadenceTracker$CompletionDisposition</field>
+    </columns>
+    <columns>
+        <field>ActionCadenceTracker$CompletionReason</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>ActionCadenceTracker$ActionCadence</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Spring 2025 Skin Renewal Event v2</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ActionCadenceTracker$CompletionReason</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>MR</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ActionCadenceTracker$State</field>
+        <sortOrder>Desc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ActionCadenceTracker$CurrentStep.StepTitle</field>
+        <sortOrder>Desc</sortOrder>
+    </groupingsDown>
+    <name>New Cadence Tracker Details Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cadence_Tracker_Details__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>ActionCadenceTracker$CompletionDisposition</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>ActionCadenceTracker$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

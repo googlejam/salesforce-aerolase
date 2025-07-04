@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>Wilcox, Wilkes, Wilkinson County</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>31001,31071,31072,31079,30660,30668,30673,31031,31042,31054,31090</value>
+    </ruleItems>
+</Territory2Rule>

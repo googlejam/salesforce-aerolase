@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TeamMemberRole_Must_Equal_User_Role</fullName>
+    <active>false</active>
+    <errorConditionFormula>TEXT(TeamMemberRole) !=  $UserRole.Name</errorConditionFormula>
+    <errorDisplayField>TeamMemberRole</errorDisplayField>
+    <errorMessage>Team Member Role Must equal User Role</errorMessage>
+</ValidationRule>

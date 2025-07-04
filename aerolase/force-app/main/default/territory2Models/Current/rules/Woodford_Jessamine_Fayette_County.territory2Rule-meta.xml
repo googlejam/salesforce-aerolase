@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Woodford, Jessamine, Fayette, Scott, Owen &amp; Carroll  County</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>40347,40383,40384,40339,40340,40356,40390,40324,40370,40379</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>40502,40503,40504,40505,40506,40507,40508,40509,40510,40511,40512,40513</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>40514,40515,40516,40517,40522,40523,40524,40526,40533,40536,40544,40546</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>40550,40555,40574,40575,40576,40577,40578,40579,40580,40581,40582,40583</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>40588,40591,40598,40355,40359,40363,41008,41045,41083,41098</value>
+    </ruleItems>
+</Territory2Rule>

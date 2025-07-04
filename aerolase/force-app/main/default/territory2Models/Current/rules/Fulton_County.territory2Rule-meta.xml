@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Fulton &amp; Gilmer County</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>30004,30005,30009,30022,30075,30076,30097,30098,30213,30268,30291,30303</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>30304,30305,30306,30307,30308,30309,30310,30311,30312,30313,30314,30315</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>30316,30318,30324,30326,30327,30328,30331,30332,30334,30336,30337,30342</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>30344,30349,30350,30354,30361,30363,30368,30369,30375,30380,30384,30385</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>30388,30396,30398,31136,31192,31193,31195,31196,30522,30536,30540,30540</value>
+    </ruleItems>
+</Territory2Rule>

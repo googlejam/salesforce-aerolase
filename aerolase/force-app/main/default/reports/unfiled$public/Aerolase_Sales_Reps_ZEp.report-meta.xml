@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>User$Name</field>
+    </columns>
+    <columns>
+        <field>User$Email</field>
+    </columns>
+    <columns>
+        <field>User$Phone</field>
+    </columns>
+    <columns>
+        <field>User*User$Sales_Team__c</field>
+    </columns>
+    <columns>
+        <field>User$Manager</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>User$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>,yara,Roberto Schieda,gabe gruboy,kendall,vincent stabile,sandra,ana mich,floribel,anthony kross,kathleen dunleavy,jenson johnson,lukas corona,ursa major,maria dececchis,dielon rivera,belle health site,glenn goodman,tricia smith,marko white,jessica milano,geneva farrow,matt fink,jenson,ana benavides,damiane,danielle dicostanzo,kinselle,jess workshops,anaelle michelis,nicole gardner,kate kettlewell,matthew hutchison,sam holland,amanda tatum,clares malino,steve smith,catie cutler,hope wilson,dylan rivera,marissa nardi,steve michas,glen goodman,cloudroi2,svetlana seliankina,lowney,elisabeth thompson,volk,schatzberg,hamilton,rodriguez,pratt,krista,Automated,Sean Johnson,Exec sponsor,platform integration,chatter,lagrutta,templeton,kandace jones,olga,integration,security,christine miller,alfreda wilson,sautter,sherman,ryan rogers,didier,tester test,testing,jessica santi,training,gomilla,madison,sumeru,data.com,gieske,efremkin,dominguez,corgnell,brenizer,abrams</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Aerolase Sales Reps.</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>prm_unique_portal_crt__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>User$LastLoginDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+    <name>Briscoe, Hall, Childress, Bailey, Lamb, Hale, Floyd, Motley, Cottle, Cochran</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>79255,79257,79233,79239,79245,79261,79201,79259,79324,79344,79347</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>79031,79064,79082,79312,79326,79339,79369,79371</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>79021,79032,79041,79072,79073,79250,79311,79221,79231,79235,79241,79258</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>79234,79244,79256,79223,79248,79314,79346,79379</value>
+    </ruleItems>
+</Territory2Rule>

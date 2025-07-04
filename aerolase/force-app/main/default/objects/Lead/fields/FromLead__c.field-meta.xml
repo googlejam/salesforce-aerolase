@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FromLead__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>FIeld mapping and used to track opportunities that were converted from a lead.</description>
+    <label>FromLead</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

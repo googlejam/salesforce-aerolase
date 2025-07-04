@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Fairfield County Zip Codes</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>06404,06440,06468,06470,06482,06484,06491,06601,06602,06604,06605,06606</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>06607,06608,06610,06611,06612,06614,06615,06673,06699,06784,06801,06804</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>06807,06810,06811,06812,06813,06820,06824,06825,06828,06829,06830,06831</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>06836,06836,06838,06840,06850,06851,06852,06853,06854,06855,06856,06857</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>06858,06860,06870,06875,06876,06877,06878,06879,06880,06881,06883,06889</value>
+    </ruleItems>
+</Territory2Rule>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Leads_in_HubSpot</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.COUNTRY_CODE</columns>
+    <columns>Job_Title__c</columns>
+    <columns>LEAD.CITY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>LEAD.ZIP</columns>
+    <columns>HubSpot_Latest_Form_Submission_Type__c</columns>
+    <columns>HubSpot_Latest_Source_Date__c</columns>
+    <columns>HubSpot_Recent_Conversion__c</columns>
+    <columns>HubSpot_Recent_Conversion_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>HubSpot_Recent_Conversion_Date__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Leads in HubSpot</label>
+</ListView>

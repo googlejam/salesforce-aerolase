@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Helpful_Info_for_Customer_Success</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL(StageName, &quot;Contract Signed&quot;),
+ISBLANK(Helpful_Info_for_Customer_Success__c))</errorConditionFormula>
+    <errorMessage>Please include any indicate any information that could be helpful to the Customer Success Team</errorMessage>
+</ValidationRule>

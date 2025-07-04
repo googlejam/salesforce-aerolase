@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2 xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accountAccessLevel>Edit</accountAccessLevel>
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <name>Pacific NW - Territory 2 - Group 3 - BAlexander</name>
+    <objectAccessLevels>
+        <accessLevel>Transfer</accessLevel>
+        <objectType>Lead</objectType>
+    </objectAccessLevels>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentTerritory>California</parentTerritory>
+    <ruleAssociations>
+        <inherited>false</inherited>
+        <ruleName>Lassen_County</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>false</inherited>
+        <ruleName>Modoc_County</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>false</inherited>
+        <ruleName>Shasta_County</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>false</inherited>
+        <ruleName>Siskiyou_County</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>false</inherited>
+        <ruleName>Tehama_County</ruleName>
+    </ruleAssociations>
+    <territory2Type>Geography</territory2Type>
+</Territory2>

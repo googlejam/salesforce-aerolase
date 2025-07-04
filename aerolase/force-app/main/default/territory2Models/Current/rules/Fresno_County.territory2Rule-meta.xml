@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Fresno County 1</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>93210,93234,93242,93602,93605,93606,93607,93608,93609,93611,93612,93613</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>93616,93619,93621,93622,93624,93625,93626,93627,93628,93630,93631,93634</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>93640,93641,93642,93646,93648,93649,93650,93651,93652,93654,93656,93657</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>93660,93662,93664,93667,93668,93675,93701,93702,93703,93704,93705,93706</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>93707,93708,93709,93710,93711,93712,93714,93715,93716,93717,93718,93720</value>
+    </ruleItems>
+</Territory2Rule>

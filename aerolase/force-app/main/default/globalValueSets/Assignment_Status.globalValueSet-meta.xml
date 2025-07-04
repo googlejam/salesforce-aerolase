@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Not Assigned</fullName>
+        <default>true</default>
+        <label>Not Assigned</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto Assigned</fullName>
+        <default>false</default>
+        <label>Auto Assigned</label>
+    </customValue>
+    <customValue>
+        <fullName>Manually Assigned</fullName>
+        <default>false</default>
+        <label>Manually Assigned</label>
+    </customValue>
+    <customValue>
+        <fullName>Failed Assignment</fullName>
+        <default>false</default>
+        <label>Failed Assignment</label>
+    </customValue>
+    <customValue>
+        <fullName>Bypassed Assignment</fullName>
+        <default>false</default>
+        <label>Bypassed Assignment</label>
+    </customValue>
+    <description>Used by Lead and Account Assignment Flows</description>
+    <masterLabel>Assignment Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

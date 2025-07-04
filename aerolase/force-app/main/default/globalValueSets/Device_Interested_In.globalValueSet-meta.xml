@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Era Elite</fullName>
+        <default>false</default>
+        <label>Era Elite</label>
+    </customValue>
+    <customValue>
+        <fullName>Era Elite &amp; Exci308 Bundle</fullName>
+        <default>false</default>
+        <label>Era Elite &amp; Exci308 Bundle</label>
+    </customValue>
+    <customValue>
+        <fullName>Exci308</fullName>
+        <default>false</default>
+        <label>Exci308</label>
+    </customValue>
+    <customValue>
+        <fullName>NeoDerm</fullName>
+        <default>false</default>
+        <label>NeoDerm</label>
+    </customValue>
+    <customValue>
+        <fullName>NeoDerm (Bundle with Era Elite)</fullName>
+        <default>false</default>
+        <label>NeoDerm (Bundle with Era Elite)</label>
+    </customValue>
+    <customValue>
+        <fullName>NeoDerm (Neo Elite &amp; Exci308)</fullName>
+        <default>false</default>
+        <label>NeoDerm (Neo Elite &amp; Exci308)</label>
+    </customValue>
+    <customValue>
+        <fullName>Neo Elite</fullName>
+        <default>false</default>
+        <label>Neo Elite</label>
+    </customValue>
+    <customValue>
+        <fullName>Neo Elite, Era Elite, Exci308</fullName>
+        <default>false</default>
+        <label>Neo Elite, Era Elite, Exci308</label>
+    </customValue>
+    <customValue>
+        <fullName>Neo Elite &amp; Exci308 Bundle</fullName>
+        <default>false</default>
+        <label>Neo Elite &amp; Exci308 Bundle</label>
+    </customValue>
+    <customValue>
+        <fullName>Neo V</fullName>
+        <default>false</default>
+        <label>Neo V</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Reverse (Bundle)</fullName>
+        <default>false</default>
+        <label>Reverse (Bundle)</label>
+    </customValue>
+    <masterLabel>Device Interested In</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Orilia Zip Code Group 3</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>L3V 1K9,L3V 1L1,L3V 1L2,L3V 1L3,L3V 1L4,L3V 1L5,L3V 1L6,L3V 1L7,L3V 1L8,L3V 1L9,L3V 1M1,L3V 1M2</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>L3V 1M3,L3V 1M4,L3V 1M5,L3V 1M6,L3V 1M7,L3V 1M8,L3V 1M9,L3V 1N1,L3V 1N2,L3V 1N3,L3V 1N4,L3V 1N5</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>L3V 1N6,L3V 1N7,L3V 1N8,L3V 1N9,L3V 1P1,L3V 1P2,L3V 1P3,L3V 1P4,L3V 1P5,L3V 1P6,L3V 1P7,L3V 1P8</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>L3V 1P9,L3V 1R1,L3V 1R2,L3V 1R3,L3V 1R4,L3V 1R5,L3V 1R6,L3V 1R7,L3V 1R8,L3V 1R9,L3V 1S1,L3V 1S2</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>L3V 1S3,L3V 1S4,L3V 1S5,L3V 1S6,L3V 1S7,L3V 1S9,L3V 1T1,L3V 1T2,L3V 1T3,L3V 1T4,L3V 1T5,L3V 1T6</value>
+    </ruleItems>
+</Territory2Rule>

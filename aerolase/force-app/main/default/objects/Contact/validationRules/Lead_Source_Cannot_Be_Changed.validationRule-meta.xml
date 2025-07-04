@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Source_Cannot_Be_Changed</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED( LeadSource ) &amp;&amp; (PRIORVALUE(LeadSource) &lt;&gt; &quot;&quot;) &amp;&amp; ! ($Profile.Name = &quot;System Administrator&quot;)</errorConditionFormula>
+    <errorMessage>Lead Source Cannot be Altered</errorMessage>
+</ValidationRule>

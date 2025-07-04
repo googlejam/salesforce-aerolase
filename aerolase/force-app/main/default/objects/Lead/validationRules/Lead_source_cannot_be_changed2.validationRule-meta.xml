@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_source_cannot_be_changed2</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISCHANGED( LeadSource ) &amp;&amp; (PRIORVALUE(LeadSource) &lt;&gt; &quot;&quot;) &amp;&amp; !($User.Alias = &quot;drive&quot;) &amp;&amp; !($User.Alias = &quot;sjohn&quot; )&amp;&amp; !($User.Alias = &quot;mnard&quot;) &amp;&amp; !($User.Alias = &quot;slown&quot;) &amp;&amp; !($User.Alias = &quot;hwils&quot;) &amp;&amp; !($User.Alias = &quot;kjone&quot; )</errorConditionFormula>
+    <errorDisplayField>LeadSource</errorDisplayField>
+    <errorMessage>Lead source cannot be changed</errorMessage>
+</ValidationRule>

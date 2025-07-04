@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Menard, Mason, Llano, Burnet, Williamson, Bell</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>76841,76848,76859,76820,76842,76856,76869,76831,76885,78607,78609,78639</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78643,78657,78672,78605,78608,78611,78654,76527,76530,76537,76573,76574</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>76578,78613,78615,78626,78627,78628,78630,78633,78634,78641,78642,78646</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78664,78665,78673,78674,78680,78681,78682,78683,78717,78729,76501,76502</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>76503,76504,76508,76511,76513,76533,76534,76540,76541,76542,76543,76544</value>
+    </ruleItems>
+</Territory2Rule>

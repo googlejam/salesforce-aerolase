@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Aransas, Refugio, Goliad, Karnes, Wilson, Bexar</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78358,78381,78382,77950,77990,78340,78377,78393,77960,77963,77993,78107</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78111,78113,78116,78117,78118,78119,78144,78151,78114,78121,78143,78147</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78160,78161,78002,78023,78054,78069,78073,78101,78109,78112,78148,78150</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78152,78201,78202,78203,78204,78205,78206,78207,78208,78209,78210,78211</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78212,78213,78214,78215,78216,78217,78218,78219,78220,78221,78222,78223</value>
+    </ruleItems>
+</Territory2Rule>

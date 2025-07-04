@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Greer, Kiowa, Jackson, Harmon, Tillman, Comanche, Cotton, Stephens</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>74956,74959,74966,73547,73554,73673,73041,73062,73559,73564,73566,73651</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73655,73521,73522,73523,73526,73532,73537,73539,73549,73556,73560,73544</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73550,73571,73530,73542,73546,73551,73553,73555,73570,73501,73502,73503</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73505 73506,73507,73527,73528,73538,73540,73541,73543,73552,73557,73558</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73567,73531,73562,73568,73572,73055,73425,73434,73442,73491,73529,73533</value>
+    </ruleItems>
+</Territory2Rule>

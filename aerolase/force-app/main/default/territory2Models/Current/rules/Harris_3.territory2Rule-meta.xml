@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Harris #3</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77270,77271,77272,77273,77274,77275,77277,77279,77280,77282,77284,77287</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77288,77289,77290,77291,77292,77293,77297,77299,77315,77325,77336,77237</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77338,77339,77345,77346,77347,77373,77375,77377,77379,77383,77388,77389</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77391,77396,77401,77402,77410,77411,77413,77429,77433,77447,77449,77450</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>77484,77491,77492,77493,77501,77502,77503,77504,77505,77506,77507,77508</value>
+    </ruleItems>
+</Territory2Rule>

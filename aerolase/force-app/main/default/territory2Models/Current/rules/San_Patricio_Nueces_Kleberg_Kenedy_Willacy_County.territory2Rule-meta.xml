@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>San Patricio, Nueces, Kleberg, Kenedy &amp; Willacy County</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78335,78336,78352,78359,78362,78363,78370,78374,78387,78390,78338,78385</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78330,78339,78343,78347,78351,78373,78380,78401,78402,78403,78404,78405</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78406,78407,78408,78409,78410,78411,78412,78413,78414,78415,78416,78417</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78418,78419,78426,78427,78460,78463,78465,78466,78467,78468,78469,78472</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78480,78363,78364,78379,78561,78569,78580,78590,78594,78598</value>
+    </ruleItems>
+</Territory2Rule>

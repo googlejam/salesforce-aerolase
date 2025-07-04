@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Areolase_User_becoming_lead</fullName>
+    <active>false</active>
+    <errorConditionFormula>CONTAINS( LOWER(Email),&apos;@aerolase.com&apos;)</errorConditionFormula>
+    <errorMessage>Aerolase Users can not be a lead.</errorMessage>
+</ValidationRule>

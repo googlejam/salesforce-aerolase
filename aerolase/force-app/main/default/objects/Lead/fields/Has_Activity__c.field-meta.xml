@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Has_Activity__c</fullName>
+    <formula>IF(
+OR(
+NOT(ISBLANK( LastActivityDate )),
+NOT(ISBLANK( Last_Lead_Activity__c )),
+NOT(ISBLANK( ActivityMetric.LastActivityDateTime ))
+),
+true, 
+false)</formula>
+    <label>Has Activity</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

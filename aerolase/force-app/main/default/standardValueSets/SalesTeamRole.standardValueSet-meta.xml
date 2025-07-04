@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>ASD - Central</fullName>
+        <default>false</default>
+        <label>ASD - Central</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ASM - Central</fullName>
+        <default>false</default>
+        <label>ASM - Central</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DSM - Central</fullName>
+        <default>false</default>
+        <label>DSM - Central</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SR ASM - Central</fullName>
+        <default>false</default>
+        <label>SR ASM - Central</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ASD - Southeast</fullName>
+        <default>false</default>
+        <label>ASD - Southeast</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ASM - Southeast</fullName>
+        <default>false</default>
+        <label>ASM - Southeast</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DSM - Southeast</fullName>
+        <default>false</default>
+        <label>DSM - Southeast</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SR ASM - Southeast</fullName>
+        <default>false</default>
+        <label>SR ASM - Southeast</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ASD - West</fullName>
+        <default>false</default>
+        <label>ASD - West</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DSM - West</fullName>
+        <default>false</default>
+        <label>DSM - West</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SR ASM - West</fullName>
+        <default>false</default>
+        <label>SR ASM - West</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TM - West</fullName>
+        <default>false</default>
+        <label>TM - West</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ASM - West</fullName>
+        <default>false</default>
+        <label>ASM - West</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ASM - Canada</fullName>
+        <default>false</default>
+        <label>ASM - Canada</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DSM - New York</fullName>
+        <default>false</default>
+        <label>DSM - New York</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ASM - New York</fullName>
+        <default>false</default>
+        <label>ASM - New York</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SR ASM - New York</fullName>
+        <default>false</default>
+        <label>SR ASM - New York</label>
+    </standardValue>
+    <standardValue>
+        <fullName>National Accounts</fullName>
+        <default>false</default>
+        <label>National Accounts</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SR. ASD - East</fullName>
+        <default>false</default>
+        <label>SR. ASD - East</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ASM - East</fullName>
+        <default>false</default>
+        <label>ASM - East</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DSM - East</fullName>
+        <default>false</default>
+        <label>DSM - East</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SR ASM - East</fullName>
+        <default>false</default>
+        <label>SR ASM - East</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SR ASM - Canada</fullName>
+        <default>false</default>
+        <label>SR ASM - Canada</label>
+    </standardValue>
+</StandardValueSet>

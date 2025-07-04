@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>TButler Additional Zip Codes Group 3</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>92018,92521,92531,92411,92570,92345,92322,92507,92508,92313,92008,92532</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>92068,92403,92405,92407,92402,92406,92413,92415,92418,92423,92427,92340</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>92011,92395,92028,92410,92401,92023,92056,92325,92393,92057,92010,92404</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>92518,92038,92039,92092,92562,92007,92324,92013,92350,92357,92595,92557</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>92408,92093,92075,92587,92169,92354,92088,92024,92553,92037,92081,92083</value>
+    </ruleItems>
+</Territory2Rule>

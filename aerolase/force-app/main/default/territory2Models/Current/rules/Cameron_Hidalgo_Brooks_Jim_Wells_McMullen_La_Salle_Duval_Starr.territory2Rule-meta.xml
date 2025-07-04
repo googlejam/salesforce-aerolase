@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Cameron, Hidalgo, Brooks, Jim Wells, McMullen, La Salle, Duval, Starr</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78597,78501,78502,78503,78504,78505,78516,78537,78538,78539,78540,78541</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78542,78543,78549,78557,78558,78560,78562,78563,78565,78570,78572,78573</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78574,78576,78577,78579,78589,78595,78596,78599,78353,78355,78332,78333</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78342,78372,78375,78383,78007,78072,78001,78014,78019,78021,78341,78349</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78357,78376,78384,78536,78545,78547,78548,78582,78584,78585,78588,78591</value>
+    </ruleItems>
+</Territory2Rule>

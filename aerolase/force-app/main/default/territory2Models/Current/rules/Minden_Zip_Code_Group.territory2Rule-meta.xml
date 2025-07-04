@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>Minden Zip Code Group</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K0M 0A9,K0M 2A1,K0M 2L1,K0M 1J2,K0M 2K0</value>
+    </ruleItems>
+</Territory2Rule>

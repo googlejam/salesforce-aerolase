@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Carlisle, Ballard, McCracken, Livingston, Crittenden, Ohio, Edmonson &amp; Hart</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>42021,42023,42035,42070,42022,42024,42056,42060,42087</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>42001,42002,42003,42053,42086</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>42028,42045,42047,42058,42078,42081,42083,42033,42037,42064</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>42320,42328,42333,42338,42343,42347,42349,42354,42361,42368,42369,42370</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>42163,42207,42210,42259,42275,42285,42713,42722,42729,42746,42749,42765</value>
+    </ruleItems>
+</Territory2Rule>

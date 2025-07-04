@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3</booleanFilter>
+    <name>Clinch, Colquitt, Cook, Decatur, Dougherty, Early, Echols, Glynn, Grady, Lainer</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>31630,31631,31634,31744,31756,31768,31771,31788,31620,31637,31647,39815</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>39817,39819,39825,39834,31701,31704,31705,31707,31721,39823,39841,39861</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>31648,31520,31522,31523,31524,31525,31527,39827,39828,39897,31635,31649</value>
+    </ruleItems>
+</Territory2Rule>

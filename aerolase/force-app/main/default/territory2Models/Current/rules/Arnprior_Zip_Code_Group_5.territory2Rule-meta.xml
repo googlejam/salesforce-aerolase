@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Arnprior Zip Code Group 5</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7S 2C1,K7S 2C2,K7S 2C3,K7S 2C4,K7S 2C5,K7S 2C6,K7S 2C7,K7S 2C8,K7S 2C9,K7S 2E1,K7S 2E2,K7S 2E3</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7S 2E4,K7S 2E5,K7S 2E6,K7S 2E7,K7S 2E9,K7S 2G1,K7S 2G2,K7S 2G3,K7S 2G4,K7S 2G6,K7S 2G7,K7S 2G8</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7S 2G9,K7S 2H1,K7S 2H2,K7S 2H3,K7S 2H4,K7S 2H5,K7S 2H6,K7S 2H7,K7S 2H8,K7S 2H9,K7S 2J1,K7S 2J2</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7S 2J3,K7S 2J4,K7S 2J5,K7S 2J6,K7S 2J7,K7S 2J8,K7S 2J9,K7S 2K1,K7S 2K2,K7S 2K3,K7S 2K4,K7S 2K5</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7S 2K6,K7S 2K7,K7S 2K8,K7S 2K9,K7S 2L1,K7S 2L2,K7S 2L3,K7S 2L4,K7S 2L5,K7S 2L6,K7S 2L7,K7S 2L8</value>
+    </ruleItems>
+</Territory2Rule>

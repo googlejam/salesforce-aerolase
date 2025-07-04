@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Owner_Doesn_t_Match_Territory_Owner</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>Lead_Owner_Name__c</columns>
+    <columns>Territory_Owner_Name__c</columns>
+    <columns>Territory__c</columns>
+    <columns>Assignment_Status__c</columns>
+    <columns>Bump_Date_Time__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.CONVERTED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Do_Not_Auto_Assign__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Lead_Territory_Owner_Match__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Territory__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Lead Owner Doesn&apos;t Match Territory Owner</label>
+</ListView>

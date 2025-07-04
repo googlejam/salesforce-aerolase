@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>Job Title is CRNA</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>aadams@aerolase.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Lead.Job_Title__c</field>
+                <operation>equals</operation>
+                <value>CRNA</value>
+            </criteriaItems>
+            <template>unfiled$public/LeadsNewassignmentnotificationSAMPLE</template>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>Secondary Lead Source %3D Kelly Hermans</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>aadams@aerolase.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Lead.Second_Lead_Source__c</field>
+                <operation>equals</operation>
+                <value>Kelly Hermans</value>
+            </criteriaItems>
+            <template>unfiled$public/LeadsNewassignmentnotificationSAMPLE</template>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

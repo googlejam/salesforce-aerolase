@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},
+
+I hope you’re doing well. I wanted to follow up on our previous conversation regarding [specific topic or product].
+
+At Aerolase, we’re committed to providing medical devices that [mention key benefit or value proposition]. I believe [Product Name] could be a great fit for your needs.
+
+If you have a few minutes, I’d love to discuss this further and see how we can assist you in achieving your goals.
+
+Looking forward to hearing from you!
+
+Best,
+
+{!Contact.OwnerFullName}

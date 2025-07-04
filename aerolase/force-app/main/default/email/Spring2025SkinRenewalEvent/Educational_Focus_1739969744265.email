@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><meta />Dear {{{Recipient.FirstName}}},<br />
+<br />
+Ready to transform your aesthetic practice?
+<p>At the Spring Skin Renewal Event, you'll learn:</p>
+
+<ul>
+	<li>Revolutionary combination therapies for stubborn skin concerns</li>
+	<li>Proven consultation techniques that boost conversion rates</li>
+	<li>Strategies to build lasting patient loyalty</li>
+</ul>
+
+<p><strong>Featured Session:</strong>&nbsp;Elite Consultations &amp; Expectation Management Led by Ashlee Bunkelman, LE</p>
+
+<p>March 22nd at Hotel Alba, Tampa Full program + cocktail reception</p>
+
+<p><span style="font-size:20px;"><a href="https://aerolase.com/spring-skin-renewal-event/" target="_blank">Secure Your Spot</a></span></p>
+
+<p>Best regards,&nbsp;{{{Sender.Name}}}</p>
+</body>
+</html>

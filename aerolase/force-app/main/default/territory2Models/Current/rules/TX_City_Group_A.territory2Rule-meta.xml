@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>TX - City Group A</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingCity</field>
+        <operation>equals</operation>
+        <value>Denton,Corinth,Flower Mound,Lantana,Lewisville,Highland Village,Grapevine,Southlake,Colleyville,Euless,Arlington,Grand Prairie,Coppell,Irving,Addison,Dallas,Duncanville,Midlothian,Red Oak,Lancaster,Waxahachie,Mansfield,Pleasant Point</value>
+    </ruleItems>
+</Territory2Rule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SecondaryLeadOwner__c</fullName>
+    <formula>IF($User.Id =  Secondary_Lead_Owner__c, TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>IsSecondaryOwner</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

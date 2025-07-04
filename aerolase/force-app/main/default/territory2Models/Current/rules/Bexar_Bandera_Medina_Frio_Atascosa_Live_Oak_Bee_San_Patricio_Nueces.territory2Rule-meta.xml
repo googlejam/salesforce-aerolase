@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Bexar, Bandera, Medina, Frio, Atascosa, Live Oak, Bee, San Patricio, Nueces</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78299,78003,78055,78063,78883,78885,78009,78016,78039,78056,78059,78066</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78850,78861,78886,78005,78017,78057,78061,78008,78011,78012,78026,78050</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78052,78062,78064,78065,78022,78060,78071,78075,78350,78102,78104,78125</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78142,78145,78146,78162,78389,78391,78335,78336,78352,78359,78362,78363</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78370,78374,78387,78390,78330,78339,78343,78347,78351,78373,78380,78401</value>
+    </ruleItems>
+</Territory2Rule>

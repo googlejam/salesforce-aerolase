@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Territory__c.Accounts__r$Name</field>
+    </columns>
+    <columns>
+        <field>Territory__c$Territory_Owner__c</field>
+    </columns>
+    <columns>
+        <field>Territory__c.Accounts__r$Owner</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Territory__c.Accounts__r$Do_Not_Auto_Assign__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Territory__c.Accounts__r$Account_Territory_Owner_Match__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>0</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Territory__c$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Account and Territory Owner</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Territories_with_Account__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Territory__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

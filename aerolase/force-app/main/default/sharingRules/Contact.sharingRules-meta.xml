@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Peter_Ryan_Sharing_Contacts</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Peter/Ryan Sharing Contacts</label>
+        <sharedTo>
+            <role>TM_Southeast_Ryan</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>ASM_Southeast_Peter</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Steve_Jose_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Steve/Jose Contact Sharing</label>
+        <sharedTo>
+            <role>TM_Southeast_Jose</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>ASM_Southeast_Steve</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Toni_Yudelky_Contact_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Toni-Yudelky Contact Sharing</label>
+        <sharedTo>
+            <role>DSM_Assistant</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>DSM_National</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

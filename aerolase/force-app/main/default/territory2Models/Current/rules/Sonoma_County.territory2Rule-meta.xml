@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 or 3 OR 4 OR 5</booleanFilter>
+    <name>Sonoma County</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>94922,94923,94926,94927,94928,94931,94951,94952,95953,94954,94955,94972</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>94975,94999,95401,95402,95403,95404,95405,95406,95407,95409,95412,95416</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>95419,95421,95425,95430,95431,95433,95436,95439,95441,95442,95444,95446</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>95448,95450,95452,95462,95465,95471,95472,95473,95476,95480,95486,95487</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>95492,95497</value>
+    </ruleItems>
+</Territory2Rule>

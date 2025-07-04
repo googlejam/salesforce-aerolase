@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Smiths Falls Zip Code Group 4</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7A 1Z4,K7A 1Z5,K7A 1Z6,K7A 1Z7,K7A 1Z8,K7A 1Z9,K7A 2A1,K7A 2A2,K7A 2A3,K7A 2A4,K7A 2A5,K7A 2A6</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7A 2A7,K7A 2A8,K7A 2A9,K7A 2B1,K7A 2B2,K7A 2B3,K7A 2B4,K7A 2B5,K7A 2B6,K7A 2B7,K7A 2B8,K7A 2B9</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7A 2C1,K7A 2C2,K7A 2C3,K7A 2C4,K7A 2C5,K7A 2C6,K7A 2C7,K7A 2C8,K7A 2C9,K7A 2E1,K7A 2E3,K7A 2E5</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7A 2E6,K7A 2E7,K7A 2E9,K7A 2G1,K7A 2G2,K7A 2G3,K7A 2G4,K7A 2G5,K7A 2G6,K7A 2G7,K7A 2G8,K7A 2G9</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7A 2H1,K7A 2H2,K7A 2H3,K7A 2H4,K7A 2H5,K7A 2H6,K7A 2H7,K7A 2H8,K7A 2H9,K7A 2J1,K7A 2J2,K7A 2J3</value>
+    </ruleItems>
+</Territory2Rule>

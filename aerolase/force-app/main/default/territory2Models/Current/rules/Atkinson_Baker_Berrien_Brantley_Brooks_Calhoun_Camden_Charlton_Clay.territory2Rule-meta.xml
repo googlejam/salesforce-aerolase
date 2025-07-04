@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3</booleanFilter>
+    <name>Atkinson, Baker, Berrien, Brantley, Brooks, Calhoun, Camden, Charlton, Clay</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>31624,31642,31650,39870,31622,31639,31645,31749,31542,31543,31553,31566</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>31625,31629,31638,31643,39813,39846,39862,39866,31548,31558,31565,31568</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>31569,31537,31562,39824,39851</value>
+    </ruleItems>
+</Territory2Rule>

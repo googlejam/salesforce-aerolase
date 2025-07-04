@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>San Diego County #2</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>92033,92036,92037,92038,92039,92040,92046,92049,92051,92052,92054,92055</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>92056,92057,92058,92059,92060,92061,92064,92065,92066,92067,92068,92069</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>92070,92071,92072,92074,92075,92078,92079,92081,92082,92083,92084,92085</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>92086,92088,92091,92092,92093,92096,92101,92102,92103,92104,92105,92106</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>92107,92108,92109,92110,92111,92112,92113,92114,92115,92116,92117,92118</value>
+    </ruleItems>
+</Territory2Rule>

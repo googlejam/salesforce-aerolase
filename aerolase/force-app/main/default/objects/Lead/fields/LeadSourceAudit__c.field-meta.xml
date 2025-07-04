@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LeadSourceAudit__c</fullName>
+    <formula>IF(
+OR(
+ISPICKVAL(LeadSource, &apos;Linkedin&apos;), ISPICKVAL(LeadSource, &apos;Instagram&apos;), ISPICKVAL(LeadSource, &apos;Facebook&apos;), ISPICKVAL(LeadSource, &apos;Tik Tok&apos;)
+), TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>LeadSourceAudit</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

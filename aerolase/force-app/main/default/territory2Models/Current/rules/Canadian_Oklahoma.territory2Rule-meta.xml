@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Canadian, Oklahoma</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73014,73022,73036,73064,73078,73085,73090,73099,73003,73007,73008,73012</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73013,73020,73025,73034,73045,73049,73054,73066,73083,73084,73097,73101</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73102,73103,73104,73105,73106,73107,73108,73109,73110,73111,73112,73113</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73114,73115,73116,73117,73118,73119,73120,73121,73122,73123,73124,73125</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73126,73127,73128,73129,73130,73131,73132,73134,73135,73136,73137,73139</value>
+    </ruleItems>
+</Territory2Rule>

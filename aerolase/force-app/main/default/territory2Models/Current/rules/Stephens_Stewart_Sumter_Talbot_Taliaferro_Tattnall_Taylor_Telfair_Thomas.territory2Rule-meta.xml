@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3</booleanFilter>
+    <name>Stephens, Stewart, Sumter, Talbot, Taliaferro, Tattnall, Taylor, Telfair, Thomas</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>30538,30557,30577,31815,31821,31825,31709,31711,31719,31735,31743,31780</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>31801,31812,31827,31836,30631,30420,30421,30427,30453,30499,31006,31076</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>31081,31037,31055,31544,31549,31626,31738,31757,31765,31773,31778,31792</value>
+    </ruleItems>
+</Territory2Rule>

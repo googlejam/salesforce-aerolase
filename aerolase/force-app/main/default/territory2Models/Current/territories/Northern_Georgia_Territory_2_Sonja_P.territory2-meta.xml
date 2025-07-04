@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2 xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accountAccessLevel>Edit</accountAccessLevel>
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <name>Northern Georgia Territory #2 - Sonja P.</name>
+    <objectAccessLevels>
+        <accessLevel>Transfer</accessLevel>
+        <objectType>Lead</objectType>
+    </objectAccessLevels>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentTerritory>Georgia</parentTerritory>
+    <ruleAssociations>
+        <inherited>true</inherited>
+        <ruleName>Warren_Washington_Wayne_Webster_Wheeler_White_Whitfield_County</ruleName>
+    </ruleAssociations>
+    <ruleAssociations>
+        <inherited>true</inherited>
+        <ruleName>Wilcox_Wilkes_Wilkinson_County</ruleName>
+    </ruleAssociations>
+    <territory2Type>Geography</territory2Type>
+</Territory2>

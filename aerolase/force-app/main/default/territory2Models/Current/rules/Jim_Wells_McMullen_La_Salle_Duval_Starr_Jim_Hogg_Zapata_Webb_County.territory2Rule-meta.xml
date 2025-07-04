@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+    <name>Jim Wells, McMullen, La Salle, Duval, Starr, Jim Hogg, Zapata &amp; Webb County</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78332,78333,78342,78372,78375,78383,78007,78072,78001,78014,78019,78021</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78341,78349,78357,78376,78384,78536,78545,78547,78548,78582,78584,78585</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78588,78591,78360,78361,78067,78076,78564</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>78040,78041,78042,78043,78044,78045,78046,78344,78369,78371</value>
+    </ruleItems>
+</Territory2Rule>

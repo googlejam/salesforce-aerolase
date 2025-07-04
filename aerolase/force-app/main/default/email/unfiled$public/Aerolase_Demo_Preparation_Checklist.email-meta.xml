@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Aerolase Treatment Demo/Training Preparation Checklist</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Aerolase Demo/Training Preparation Checklist</name>
+    <style>none</style>
+    <subject>Aerolase Treatment Demo/Training Preparation Checklist</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

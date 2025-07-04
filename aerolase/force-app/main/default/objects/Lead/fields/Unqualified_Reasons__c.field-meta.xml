@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unqualified_Reasons__c</fullName>
+    <label>Unqualified Reasons</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Spam</fullName>
+                <default>false</default>
+                <label>Spam</label>
+            </value>
+            <value>
+                <fullName>Bad Email</fullName>
+                <default>false</default>
+                <label>Bad Email</label>
+            </value>
+            <value>
+                <fullName>Not Decision Maker</fullName>
+                <default>false</default>
+                <label>Not Decision Maker</label>
+            </value>
+            <value>
+                <fullName>No Response</fullName>
+                <default>false</default>
+                <label>No Response</label>
+            </value>
+            <value>
+                <fullName>Not a qualified clinician</fullName>
+                <default>false</default>
+                <label>Not a qualified clinician</label>
+            </value>
+            <value>
+                <fullName>Requested do not call</fullName>
+                <default>false</default>
+                <label>Requested do not call</label>
+            </value>
+            <value>
+                <fullName>No funding</fullName>
+                <default>false</default>
+                <label>No funding</label>
+            </value>
+            <value>
+                <fullName>National Account</fullName>
+                <default>false</default>
+                <label>National Account</label>
+            </value>
+            <value>
+                <fullName>Email Bounced</fullName>
+                <default>false</default>
+                <label>Email Bounced</label>
+            </value>
+            <value>
+                <fullName>Not enough info</fullName>
+                <default>false</default>
+                <label>Not enough info</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Spam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Bad Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Not Decision Maker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>No Response</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Not a qualified clinician</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Requested do not call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>No funding</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

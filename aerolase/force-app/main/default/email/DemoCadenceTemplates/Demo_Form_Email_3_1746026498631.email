@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: 0%;">
+<p style="line-height:1.38; margin-top:19px"><span style="font-size:11pt; font-variant-ligatures:normal; font-variant-alternates:normal; font-variant-numeric:normal; font-variant-east-asian:normal; font-variant-position:normal; white-space:pre-wrap"><span style="font-family:Arial, sans-serif"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Hi {{{Recipient.FirstName}}},</span></span></span></span></span></span></p>
+
+<p style="line-height:1.38"><span style="font-size:11pt; font-variant-ligatures:normal; font-variant-alternates:normal; font-variant-numeric:normal; font-variant-east-asian:normal; font-variant-position:normal; white-space:pre-wrap"><span style="font-family:Arial, sans-serif"><span style="color:#0e101a"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Integrating a new device can feel like a bold move—but hundreds of practices in more than 60 countries trust Aerolase. With a single device, you can treat acne, melasma, signs of aging, vascular conditions, and more—delivering powerful, proven results.</span></span></span></span></span></span></p>
+
+<p style="line-height:1.38"><span style="font-size:11pt; font-variant-ligatures:normal; font-variant-alternates:normal; font-variant-numeric:normal; font-variant-east-asian:normal; font-variant-position:normal; white-space:pre-wrap"><span style="font-family:Arial, sans-serif"><span style="color:#0e101a"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Let’s talk this week about how Aerolase integrates into your practice!</span></span></span></span></span></span><br />
+&nbsp;</p>
+
+<p style="line-height:1.38; margin-top:16px; margin-bottom:16px"><span style="font-size:11pt; font-variant-ligatures:normal; font-variant-alternates:normal; font-variant-numeric:normal; font-variant-east-asian:normal; font-variant-position:normal; white-space:pre-wrap"><span style="font-family:Arial, sans-serif"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Best regards,<br />
+<strong>{{{Sender.Name}}}<br />
+{{{Sender.Title}}}<br />
+{{{Sender.Phone}}}</strong></span></span></span></span></span></span></p>
+
+<p style="line-height:1.38; margin-top:16px; margin-bottom:16px">&nbsp;</p>
+&nbsp;
+
+<p style="line-height:1.38"><br />
+<span style="font-size:11pt; font-variant-ligatures:normal; font-variant-alternates:normal; font-variant-numeric:normal; font-variant-east-asian:normal; font-variant-position:normal; white-space:pre-wrap"><span style="font-family:Arial, sans-serif"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none"><span style="font-size:10px;">If you no longer wish to receive emails related to this, please reply “STOP”</span></span></span></span></span></span></span></p>
+</body>
+</html>

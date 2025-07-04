@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Hockley, Lubbock, Crosby, Dickens, King, Yoakum, Terry, Lynn</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>79313,79336,79338,79353,79358,79367,79372,79380,79322,79343,79357,79236</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>79329,79350,79363,79364,79366,79382,79401,79402,79403,79404,79406,79407</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>79408,79409,79410,79411,79412,79413,79414,79415,79416,79423,79424,79430</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>79452,79453,79457,79464,79490,79491,79493,79499,79220,79229,79243,79370</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>79323,79355,79376,79316,79345,79378,79351,79373,79381,79383</value>
+    </ruleItems>
+</Territory2Rule>

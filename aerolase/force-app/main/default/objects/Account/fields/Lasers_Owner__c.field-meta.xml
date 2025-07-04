@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lasers_Owner__c</fullName>
+    <label>Lasers Owner</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1st Neo</fullName>
+                <default>false</default>
+                <label>1st Neo</label>
+            </value>
+            <value>
+                <fullName>2nd Neo</fullName>
+                <default>false</default>
+                <label>2nd Neo</label>
+            </value>
+            <value>
+                <fullName>3rd Neo</fullName>
+                <default>false</default>
+                <label>3rd Neo</label>
+            </value>
+            <value>
+                <fullName>4th Neo</fullName>
+                <default>false</default>
+                <label>4th Neo</label>
+            </value>
+            <value>
+                <fullName>1st Era</fullName>
+                <default>false</default>
+                <label>1st Era</label>
+            </value>
+            <value>
+                <fullName>2nd Era</fullName>
+                <default>false</default>
+                <label>2nd Era</label>
+            </value>
+            <value>
+                <fullName>1st V650</fullName>
+                <default>false</default>
+                <label>1st V650</label>
+            </value>
+            <value>
+                <fullName>2nd V650</fullName>
+                <default>false</default>
+                <label>2nd V650</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

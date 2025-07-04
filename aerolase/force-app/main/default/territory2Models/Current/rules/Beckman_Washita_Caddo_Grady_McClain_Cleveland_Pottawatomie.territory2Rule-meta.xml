@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Beckman, Washita, Caddo, Grady, McClain, Cleveland, Pottawatomie</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73645,73648,73662,73668,73021,73024,73622,73624,73626,73632,73641,73647</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73661,73664,73001,73005,73006,73009,73015,73017,73029,73033,73038,73042</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73047,73048,73053,73002,73004,73011,73018,73023,73059,73067,73079,73082</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73089,73092,73010,73031,73065,73080,73093,73095,74831,73019,73026,73051</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>73068,73069,73070,73071,73072,73153,73160,73165,73170,73189,74857,74801</value>
+    </ruleItems>
+</Territory2Rule>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <name>Napanee Zip Code Group 1</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7R 0B1,K7R 1A6,K7R 1E4,K7R 1G4,K7R 1H9,K7R 1K1,K7R 1M4,K7R 1R3,K7R 1S8,K7R 1T8,K7R 1X1,K7R 1Z8</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7R 2B3,K7R 2C2,K7R 2G2,K7R 2J2,K7R 2L1,K7R 0B9,K7R 1B3,K7R 1E5,K7R 1H2,K7R 1J3,K7R 1K2,K7R 1M8</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7R 1R4,K7R 1S9,K7R 1V3,K7R 1X4,K7R 2A2,K7R 2B4,K7R 2C4,K7R 2G6,K7R 2J5,K7R 2M5,K7R 0C2,K7R 1B9</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7R 1E8,K7R 1H5,K7R 1J4,K7R 1K8,K7R 1N9,K7R 1S2,K7R 1T3,K7R 1V8,K7R 1X9,K7R 2A4,K7R 2B7,K7R 2E2</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>K7R 2H3,K7R 2K1,K7R 2M7,K7R 1A2,K7R 1C7,K7R 1F5,K7R 1H7,K7R 1J8,K7R 1K9,K7R 1P3,K7R 1S5,K7R 1T4</value>
+    </ruleItems>
+</Territory2Rule>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>Uxbridge Zip Code Group 3</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>L9P 1M7,L9P 1M8,L9P 1M9,L9P 1N1,L9P 1N2,L9P 1N3,L9P 1N4,L9P 1N5,L9P 1N6,L9P 1N7,L9P 1N8,L9P 1N9</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>L9P 1P1,L9P 1P2,L9P 1P3,L9P 1P4,L9P 1P5,L9P 1P6,L9P 1P7,L9P 1P9,L9P 1R1,L9P 1R2,L9P 1R3,L9P 1R4</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>L9P 1R5,L9P 1R6,L9P 1R7,L9P 1R8,L9P 1R9,L9P 1S3,L9P 1S4,L9P 1S9,L9P 1T1,L9P 1T5,L9P 1T6,L9P 1T7</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>L9P 1T8,L9P 1T9,L9P 1V1,L9P 1V2,L9P 1V3,L9P 1V4,L9P 1V5,L9P 1V7,L9P 1VL9P 1V9,L9P 1W1,L9P 1W2</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingPostalCode</field>
+        <operation>equals</operation>
+        <value>L9P 1W3,L9P 1W4,L9P 1W5,L9P 1W6,L9P 1W7,L9P 1W8,L9P 1W9,L9P 1X1,L9P 1X2,L9P 1X3,L9P 1X4,L9P 1X5</value>
+    </ruleItems>
+</Territory2Rule>
