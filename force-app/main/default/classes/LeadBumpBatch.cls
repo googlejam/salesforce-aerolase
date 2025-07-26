@@ -1,3 +1,8 @@
+/**
+ * @description Main Apex Class for Lead Record Bumper - Batch Processing
+ * @author Glenn Goodman | 678-557-7562 | salesforce@procetra.com
+ * @date 2025
+ */
 public class LeadBumpBatch implements Database.Batchable<sObject> {
     private Set<Id> leadIds;
     

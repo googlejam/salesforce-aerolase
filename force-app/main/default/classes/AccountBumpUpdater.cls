@@ -1,3 +1,8 @@
+/**
+ * @description Main Invocable Apex Class for Account Record Bumper - Flow Integration
+ * @author Glenn Goodman | 678-557-7562 | salesforce@procetra.com
+ * @date 2025
+ */
 public class AccountBumpUpdater {
     
     @InvocableMethod(label='Batch Account Bump Date Time Update')

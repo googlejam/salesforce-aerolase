@@ -1,3 +1,8 @@
+/**
+ * @description Main Invocable Apex Class Lead Record Bumper - Flow Integration
+ * @author Glenn Goodman | 678-557-7562 | salesforce@procetra.com
+ * @date 2025
+ */
 public class LeadBumpUpdater {
     
     @InvocableMethod(label='Batch Lead Bump Date Time Update')

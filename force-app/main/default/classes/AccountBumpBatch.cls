@@ -1,3 +1,8 @@
+/**
+ * @description Main Apex Class for Account Record Bumper - Batch Processing
+ * @author Glenn Goodman | 678-557-7562 | salesforce@procetra.com
+ * @date 2025
+ */
 public class AccountBumpBatch implements Database.Batchable<sObject> {
     private Set<Id> accountIds;
     
